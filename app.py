@@ -51,7 +51,7 @@ def home():
     return render_template("index.html")
 
 @app.route('/select-book', methods=['GET', 'POST'])
-def select-book():
+def selectbook():
     genres = 'nothing'
     if request.method == 'POST':
         genres = request.form.getlist('genre')
