@@ -18,7 +18,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 db = SQLAlchemy(app)
 
-@app.route('/')
+@app.route('/', methods=['GET', 'POST'])
 def home():
     if request.method == 'POST':
         email = request.form['email']
@@ -46,8 +46,30 @@ def home():
             server.quit()
 
         send_email()
+        print("email is sent to " + email)
 
     return render_template("index.html")
+
+@app.route('/select-book', methods=['GET', 'POST'])
+def select-book():
+    genres = 'nothing'
+    if request.method == 'POST':
+        genres = request.form.getlist('genre')
+        print(genres)
+        if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
+            return render_template("index.html")
+        if 'Bananas' and 'Strawberries' in genres:
+            return render_template("index.html")
+        if 'Comedy' in genres:
+            return render_template("index.html")
+        if 'Nonfiction' in genres:
+            return render_template("index.html")
+        if 'Romance' in genres:
+            return render_template("index.html")
+        if 'SciFi' in genres:
+            return render_template("index.html")
+    return render_template("select-book.html")
+
 
 if __name__ == "__main__":
     #runs the application on the repl development server
