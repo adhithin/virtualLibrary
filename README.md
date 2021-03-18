@@ -22,4 +22,6 @@ we could use a checkbox form in html and python and render different templates b
 ### shop for your book on amazon
 
 
-### random book selection : Ketki
+### random book selection 
+
+### homepage/visuals (Aditi)
