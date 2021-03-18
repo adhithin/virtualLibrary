@@ -15,3 +15,11 @@ this would entail the use of smtp in order to be able to send emails to those wh
 we could use a checkbox form in html and python and render different templates based on the genres chosen. 
 
 @adhithi can do it?
+
+### find a library near you 
+
+
+### shop for your book on amazon
+
+
+### random book selection 
