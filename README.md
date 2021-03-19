@@ -25,3 +25,7 @@ we could use a checkbox form in html and python and render different templates b
 ### random book selection 
 
 ### homepage/visuals (Aditi)
+[https://wallpapercave.com/wp/wp2151419.jpg](https://wallpapercave.com/wp/wp2151419.jpg)
+[https://wallpapercave.com/wp/wp2151529.jpg](https://wallpapercave.com/wp/wp2151529.jpg)
+[https://wallpapercave.com/wp/wp2151565.jpg](https://wallpapercave.com/wp/wp2151565.jpg)
+[https://wallpapercave.com/wp/wp2151568.jpg](https://wallpapercave.com/wp/wp2151568.jpg)
