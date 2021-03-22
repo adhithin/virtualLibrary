@@ -3,7 +3,7 @@ from flask import Flask, render_template, flash, redirect, url_for, session, log
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 import smtplib
 import time
 
@@ -69,6 +69,10 @@ def selectbook():
         if 'SciFi' in genres:
             return render_template("index.html")
     return render_template("select-book.html")
+
+@app.route('/home')
+def base():
+    return render_template("home.html")
 
 
 if __name__ == "__main__":
