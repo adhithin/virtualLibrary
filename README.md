@@ -29,3 +29,8 @@ we could use a checkbox form in html and python and render different templates b
 [https://wallpapercave.com/wp/wp2151529.jpg](https://wallpapercave.com/wp/wp2151529.jpg)
 [https://wallpapercave.com/wp/wp2151565.jpg](https://wallpapercave.com/wp/wp2151565.jpg)
 [https://wallpapercave.com/wp/wp2151568.jpg](https://wallpapercave.com/wp/wp2151568.jpg)
+
+
+### Color Schemes
+* #294e54
+* For More info about color scemes, visit [https://www.colorhexa.com/294e54](https://www.colorhexa.com/294e54)
