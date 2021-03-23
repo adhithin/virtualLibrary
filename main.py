@@ -20,6 +20,39 @@ db = SQLAlchemy(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
+    email = 'nothing'
+    if request.method == 'POST':
+        email = request.form['email']
+        def send_email():
+            server = smtplib.SMTP('smtp.gmail.com', 587)
+            server.ehlo()
+            server.starttls()
+            server.ehlo()
+
+            server.login('adhithi.nmurthy07@gmail.com', 'yavesbrwlogwvuaa')
+
+            subject = 'Hello from virtualLibrary'
+
+            body = 'Check out the website to learn about Bananas: https://en.wikipedia.org/wiki/Banana'
+
+            msg = f"Subject: {subject}\n\n{body}"
+
+            server.sendmail(
+                'adhithi.nmurthy07@gmail.com',
+                email,
+                msg
+
+            )
+
+            server.quit()
+
+        send_email()
+        print("email is sent to " + email)
+
+    return render_template("home.html")
+
+@app.route('/newletters', methods=['GET', 'POST'])
+def index():
     if request.method == 'POST':
         email = request.form['email']
         def send_email():
