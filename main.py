@@ -51,7 +51,7 @@ def home():
             server.quit()
 
         send_email()
-        print("email is sent to " + email)
+        print("email: " + email)
 
     return render_template("home.html")
 
