@@ -90,7 +90,7 @@ def selectbook():
         genres = request.form.getlist('genre')
         print(genres)
         if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
-            return render_template("index.html")
+            return render_template("allgenres.html")
         if 'Bananas' and 'Strawberries' in genres:
             return render_template("index.html")
         if 'Comedy' in genres:
