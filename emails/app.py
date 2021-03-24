@@ -13,7 +13,7 @@ emails_bp = Blueprint('emails', __name__,
                          static_folder='static', static_url_path='assets')
 
 
-@emails_bp.route('/bookrecs', methods=['GET', 'POST'])
+@emails_bp.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         email = request.form['email']

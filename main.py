@@ -6,8 +6,11 @@ from sqlalchemy import desc
 #from bs4 import BeautifulSoup
 import smtplib
 import time
+from emails.app import emails_bp
 
 app = Flask(__name__)
+app.register_blueprint(emails_bp, url_prefix='/emails')
+
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -17,6 +20,7 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #OMG SO IMPORTANT TO INCLUDE THIS ABOVE! Warnings up the wazoo if not here on a development server.
 
 db = SQLAlchemy(app)
+
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
@@ -71,3 +75,7 @@ def selectbook():
         if 'SciFi' in genres:
             return render_template("index.html")
     return render_template("select-book.html")
+
+if __name__ == "__main__":
+    #runs the application on the repl development server
+    app.run(debug=True, port='8024', host='127.0.0.1')
