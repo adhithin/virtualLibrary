@@ -51,7 +51,7 @@ def home():
 
     return render_template("home.html")
 
-@app.route('/newletters', methods=['GET', 'POST'])
+@app.route('/newsletters', methods=['GET', 'POST'])
 def index():
     if request.method == 'POST':
         email = request.form['email']
