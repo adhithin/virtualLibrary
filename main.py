@@ -7,10 +7,11 @@ from sqlalchemy import desc
 import smtplib
 import time
 from emails.app import emails_bp
+from findabook.app import bookfinder_bp
 
 app = Flask(__name__)
 app.register_blueprint(emails_bp, url_prefix='/emails')
-
+app.register_blueprint(bookfinder_bp, url_prefix='/findabook')
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 

@@ -4,103 +4,103 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
-        body {
-            font-family: Oswald;
-        }
+body {
+  font-family: Courier New;
+}
 
-        .sidenav {
-            height: 100%;
-            width: 200px;
-            position: fixed;
-            z-index: 1;
-            top: 0;
-            left: 0;
-            background-color: #111;
-            overflow-x: hidden;
-            padding-top: 20px;
-        }
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-        .sidenav a {
-            padding: 6px 8px 6px 16px;
-            text-decoration: none;
-            font-size: 25px;
-            color: #fff;
-            display: block;
-        }
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #fff;
+  display: block;
+}
 
-        .sidenav a:hover {
-            color: #696969;
-        }
+.sidenav a:hover {
+  color: #696969;
+}
 
-        .main {
-            margin-left: 200px; /* Same as the width of the sidenav */
-            margin-right: 300px;
-            font-size: 28px; /* Increased text to enable scrolling */
-            padding: 0px 10px;
-        }
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-right: 300px;
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
 
-        * {
-            box-sizing: border-box;
-        }
+* {
+box-sizing: border-box;
+}
 
-        /* Float four columns side by side */
-        .column {
-            float: left;
-            width: 25%;
-            padding: 0 10px;
-        }
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
 
-        .row {margin: 0 -5px;}
+.row {margin: 0 -5px;}
 
-        /* Clear floats after the columns */
-        .row:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
+            /* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 
-        /* Style the counter cards */
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-            padding: 16px;
-            text-align: center;
-            background-color: #294e54;
-        }
+            /* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #294e54;
+}
 
-        /* Responsive columns - one column layout (vertical) on small screens */
-        @media screen and (max-width: 600px) {
-            .column {
-                width: 100%;
-                display: block;
-                margin-bottom: 20px;
-            }
-        }
+            /* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+}
 
-        @media screen and (max-height: 450px) {
-            .sidenav {padding-top: 15px;}
-            .sidenav a {font-size: 18px;}
-        }
-    </style>
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 </head>
 <body>
 
 <div class="sidenav">
     <a href="#about" style="font-family:Courier New">About</a>
     <a href="/emails" style="font-family:Courier New">Book Recs</a>
-    <a href="#randombooks" style="font-family:Courier New">Random Book Generator</a>
+    <a href="#clients" style="font-family:Courier New">Clients</a>
     <a href="#contact" style="font-family:Courier New">Contact</a>
 </div>
 
 <div class="main">
     <style>
-        body {
-            background-image: url('https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGxpYnJhcnl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: 100% 230%;
-            font-family:Courier New;
-            color: #fff;
-        }
+    body {
+      background-image: url('https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGxpYnJhcnl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 230%;
+      font-family:Courier New;
+      color: #fff;
+    }
     </style>
 
     <h1 class="card" style="color:#fff;background-color:#151515;">Welcome to Virtual Librarian</h1>
