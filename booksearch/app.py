@@ -21,8 +21,6 @@ def search():
         print(genres)
         if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
             return render_template("allgenres.html")
-        if 'Bananas' and 'Strawberries' in genres:
-            return render_template("index.html")
         if 'Comedy' in genres:
             return render_template("index.html")
         if 'Nonfiction' in genres:
@@ -32,3 +30,7 @@ def search():
         if 'SciFi' in genres:
             return render_template("index.html")
     return render_template("select-book.html")
+
+@booksearch_bp.route('/allgenres', methods=['GET', 'POST'])
+def allgenres():
+    return render_template("allgenres.html")
