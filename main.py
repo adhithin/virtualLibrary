@@ -8,10 +8,12 @@ import smtplib
 import time
 from emails.app import emails_bp
 from findabook.app import bookfinder_bp
+from booksearch.app import booksearch_bp
 
 app = Flask(__name__)
 app.register_blueprint(emails_bp, url_prefix='/emails')
 app.register_blueprint(bookfinder_bp, url_prefix='/findabook')
+app.register_blueprint(booksearch_bp, url_prefix='/booksearch')
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -57,25 +59,6 @@ def home():
     return render_template("home.html")
 
 
-@app.route('/select-book', methods=['GET', 'POST'])
-def selectbook():
-    genres = 'nothing'
-    if request.method == 'POST':
-        genres = request.form.getlist('genre')
-        print(genres)
-        if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
-            return render_template("allgenres.html")
-        if 'Bananas' and 'Strawberries' in genres:
-            return render_template("index.html")
-        if 'Comedy' in genres:
-            return render_template("index.html")
-        if 'Nonfiction' in genres:
-            return render_template("index.html")
-        if 'Romance' in genres:
-            return render_template("index.html")
-        if 'SciFi' in genres:
-            return render_template("index.html")
-    return render_template("select-book.html")
 
 if __name__ == "__main__":
     #runs the application on the repl development server
