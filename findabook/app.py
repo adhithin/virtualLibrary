@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template
+from flask import Blueprint, render_template, request
 
 bookfinder_bp = Blueprint('findabook', __name__,
                          template_folder='templates',
