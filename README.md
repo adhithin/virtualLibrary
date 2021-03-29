@@ -26,7 +26,7 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 * GitHub commit toward "In Progress" ticket
     * [Link to heat map](https://github.com/adhithin/virtualLibrary/commits?author=adhithin)
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](hhttps://github.com/adhithin/virtualLibrary/commit/5f45c8cd27cd8e3d8080822b744c8e50e9fd4a5c)
+    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/5f45c8cd27cd8e3d8080822b744c8e50e9fd4a5c)
     
 #### Aditi Individual Binary Crossover Grading
 * "In Progress" Story/Ticket for individual
