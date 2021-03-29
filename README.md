@@ -10,7 +10,7 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 
 <a href="https://padlet.com/ketkic61666/Rats" > Aditi's Ticket  </a> 
 
-<a href="https://padlet.com/ketkic61666/Rats" > Ketki's Ticket  </a> 
+<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57450670" > Ketki's Ticket  </a> 
 
 <a href="https://padlet.com/ketkic61666/Rats" > Dayita's Ticket  </a> 
 
