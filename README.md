@@ -67,7 +67,7 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 * "In Progress" Story/Ticket for individual
     * [Link to in progress ticket](http://104.35.27.118/)
 * "Backlog" Story/Ticket for individual
-    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57881936)
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57942900)
 * GitHub commit toward "In Progress" ticket
     * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
