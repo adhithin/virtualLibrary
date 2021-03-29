@@ -8,7 +8,7 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 * 
 
 
-#### Aditi Individual Binary Crossover Grading
+#### Aditi's Individual Binary Crossover Grading
 * "In Progress" Story/Ticket for individual
     * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
 * "Backlog" Story/Ticket for individual
