@@ -6,25 +6,26 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 
 #### Group Binary Crossover Grading: 
 * Project Plan
+    * [Link to our padlet](https://padlet.com/ketkic61666/Rats)
 * Project Idea to Support Individual members work within the plan (routes, blueprints, etc)
+    * [Link to padlet](https://padlet.com/ketkic61666/Rats). Each different section of our project is highlighted in the padlet. Each section will also have its own blueprinted directory
 * 1st Deployed Website
+    * [Link to deployed website](http://104.35.27.118/)
 * BluePrints in place in version control
+    * [Link to bluprint setup in main.py](https://github.com/adhithin/virtualLibrary/blob/41102773dccac1923073fc86aba6d595116dd84e/main.py#L9-L16)
+    * The directories in our project called emails, booksearch, findabook, and randombook are all blueprinted directories. 
 * Scrum Board "In Progress" tickets active and assigned
+    * [Link to project board](https://github.com/adhithin/virtualLibrary/projects/1). Each person has their own "In Progress" ticket.
 * Scrum Board "Backlog" tickets defined for each member
+    * [Link to project board](https://github.com/adhithin/virtualLibrary/projects/1). Each person has their own "Backlog" ticket. 
 
 #### Team Goals 
 * Deployment is ready 
-    * [Link to deployed website](http://104.35.27.118/)
 * Set up html templates 
-    * [Link to templates directory](https://github.com/adhithin/virtualLibrary/tree/main/templates)
-* Created our project plan 
-    * [Link to padlet](https://padlet.com/ketkic61666/Rats)
+* Create our project plan
 * Create main.py file
-    * [Link to main.py](https://github.com/adhithin/virtualLibrary/blob/main/main.py)
 * Organize tasks on the scrum board and set that up 
-    * [Link to project board](https://github.com/adhithin/virtualLibrary/projects/1)
 * Designing the homepage + nav bar
-    * [Link to home.html](https://github.com/adhithin/virtualLibrary/blob/main/templates/home.html)
 
 
 #### Aditi's Individual Binary Crossover Grading
