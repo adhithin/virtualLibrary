@@ -14,11 +14,17 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 
 #### Team Goals 
 * Deployment is ready 
+    * [Link to deployed website](http://104.35.27.118/)
 * Set up html templates 
+    * [Link to templates directory](https://github.com/adhithin/virtualLibrary/tree/main/templates)
 * Created our project plan 
+    * [Link to padlet](https://padlet.com/ketkic61666/Rats)
 * Create main.py file
+    * [Link to main.py](https://github.com/adhithin/virtualLibrary/blob/main/main.py)
 * Organize tasks on the scrum board and set that up 
+    * [Link to project board](https://github.com/adhithin/virtualLibrary/projects/1)
 * Designing the homepage + nav bar
+    * [Link to home.html](https://github.com/adhithin/virtualLibrary/blob/main/templates/home.html)
 
 
 #### Aditi's Individual Binary Crossover Grading
@@ -58,8 +64,6 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
     * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57881936)
 * GitHub commit toward "In Progress" ticket
     * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
-* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
 
 #### Dayita's Individual Binary Crossover Grading
 * "In Progress" Story/Ticket for individual
@@ -71,13 +75,6 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
     * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
 
-### Team Goals 
- 1. goal 1 
- 2. goal 2 
- 3. goal 3 
- 4. goal 4 
- 5. goal 5
- 6. goal 6 
 
 ## Possible Ideas to expand into (and who might be able to them) 
 
