@@ -58,6 +58,16 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
     * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
 
+#### Dayita's Individual Binary Crossover Grading
+* "In Progress" Story/Ticket for individual
+    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450670)
+* "Backlog" Story/Ticket for individual
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450758)
+* GitHub commit toward "In Progress" ticket
+    * [Link to heat map](http://104.35.27.118/)
+* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
+    * [Link to commit](https://github.com/adhithin/virtualLibrary/tree/main/randombook)
+
 ### Team Goals 
  1. goal 1 
  2. goal 2 
