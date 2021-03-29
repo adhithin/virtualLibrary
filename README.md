@@ -7,10 +7,15 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 ### Individual Tickets: 
 
 <a href="https://padlet.com/ketkic61666/Rats" > Adi's Ticket  </a> 
+
 <a href="https://padlet.com/ketkic61666/Rats" > Aditi's Ticket  </a> 
+
 <a href="https://padlet.com/ketkic61666/Rats" > Ketki's Ticket  </a> 
+
 <a href="https://padlet.com/ketkic61666/Rats" > Dayita's Ticket  </a> 
+
 <a href="https://padlet.com/ketkic61666/Rats" > Luke's Ticket  </a> 
+
 
 ### Team Goals 
  1. goal 1 
