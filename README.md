@@ -2,6 +2,29 @@
 
 here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a> 
 
+## Sprint #1 
+
+### Individual Tickets: 
+
+<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57448832" > Adi's Ticket  </a> 
+
+<a href="https://padlet.com/ketkic61666/Rats" > Aditi's Ticket  </a> 
+
+<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57450670" > Ketki's Ticket  </a> 
+
+<a href="https://padlet.com/ketkic61666/Rats" > Dayita's Ticket  </a> 
+
+<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57881910" > Luke's Ticket  </a> 
+
+
+### Team Goals 
+ 1. goal 1 
+ 2. goal 2 
+ 3. goal 3 
+ 4. goal 4 
+ 5. goal 5
+ 6. goal 6 
+
 ## Possible Ideas to expand into (and who might be able to them) 
 
 ### Sending a newsletter 
