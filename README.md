@@ -14,7 +14,7 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 * "Backlog" Story/Ticket for individual
     * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
 * GitHub commit toward "In Progress" ticket
-    * [Link to heat map](https://github.com/aditiakella)
+    * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
     * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
     
