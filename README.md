@@ -4,18 +4,59 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 
 ## Sprint #1 
 
-### Individual Tickets: 
+### Group Binary Crossover Grading: 
+* 
 
-<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57448832" > Adi's Ticket  </a> 
 
-<a href="https://padlet.com/ketkic61666/Rats" > Aditi's Ticket  </a> 
-
-<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57450670" > Ketki's Ticket  </a> 
-
-<a href="https://padlet.com/ketkic61666/Rats" > Dayita's Ticket  </a> 
-
-<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57881910" > Luke's Ticket  </a> 
-
+#### Aditi Individual Binary Crossover Grading
+* "In Progress" Story/Ticket for individual
+    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
+* "Backlog" Story/Ticket for individual
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
+* GitHub commit toward "In Progress" ticket
+    * [Link to heat map](https://github.com/aditiakella)
+* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
+    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
+    
+#### Aditi Individual Binary Crossover Grading
+* "In Progress" Story/Ticket for individual
+    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
+* "Backlog" Story/Ticket for individual
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
+* GitHub commit toward "In Progress" ticket
+    * [Link to heat map](https://github.com/aditiakella)
+* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
+    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
+    
+#### Aditi Individual Binary Crossover Grading
+* "In Progress" Story/Ticket for individual
+    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
+* "Backlog" Story/Ticket for individual
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
+* GitHub commit toward "In Progress" ticket
+    * [Link to heat map](https://github.com/aditiakella)
+* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
+    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
+    
+#### Aditi Individual Binary Crossover Grading
+* "In Progress" Story/Ticket for individual
+    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
+* "Backlog" Story/Ticket for individual
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
+* GitHub commit toward "In Progress" ticket
+    * [Link to heat map](https://github.com/aditiakella)
+* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
+    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
+    
+#### Aditi Individual Binary Crossover Grading
+* "In Progress" Story/Ticket for individual
+    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
+* "Backlog" Story/Ticket for individual
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
+* GitHub commit toward "In Progress" ticket
+    * [Link to heat map](https://github.com/aditiakella)
+* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
+    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
 
 ### Team Goals 
  1. goal 1 
@@ -47,13 +88,9 @@ we could use a checkbox form in html and python and render different templates b
 
 ### random book selection 
 
-### homepage/visuals (Aditi)
-[https://wallpapercave.com/wp/wp2151419.jpg](https://wallpapercave.com/wp/wp2151419.jpg)
-[https://wallpapercave.com/wp/wp2151529.jpg](https://wallpapercave.com/wp/wp2151529.jpg)
-[https://wallpapercave.com/wp/wp2151565.jpg](https://wallpapercave.com/wp/wp2151565.jpg)
-[https://wallpapercave.com/wp/wp2151568.jpg](https://wallpapercave.com/wp/wp2151568.jpg)
 
 
 ### Color Schemes
 * #294e54
 * For More info about color scemes, visit [https://www.colorhexa.com/294e54](https://www.colorhexa.com/294e54)
+
