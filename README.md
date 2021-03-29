@@ -6,7 +6,7 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 
 ### Individual Tickets: 
 
-<a href="https://padlet.com/ketkic61666/Rats" > Adi's Ticket  </a> 
+<a href="https://github.com/adhithin/virtualLibrary/projects/1#card-57448832" > Adi's Ticket  </a> 
 
 <a href="https://padlet.com/ketkic61666/Rats" > Aditi's Ticket  </a> 
 
