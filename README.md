@@ -18,15 +18,15 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
     * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
     
-#### Aditi Individual Binary Crossover Grading
+#### Adi's Individual Binary Crossover Grading
 * "In Progress" Story/Ticket for individual
-    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
+    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57448832)
 * "Backlog" Story/Ticket for individual
-    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
+    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57571362)
 * GitHub commit toward "In Progress" ticket
-    * [Link to heat map](https://github.com/aditiakella)
+    * [Link to heat map](https://github.com/adhithin/virtualLibrary/commits?author=adhithin)
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
+    * [Link to commit](hhttps://github.com/adhithin/virtualLibrary/commit/5f45c8cd27cd8e3d8080822b744c8e50e9fd4a5c)
     
 #### Aditi Individual Binary Crossover Grading
 * "In Progress" Story/Ticket for individual
