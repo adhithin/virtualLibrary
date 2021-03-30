@@ -68,13 +68,13 @@ here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a>
 
 #### Dayita's Individual Binary Crossover Grading
 * "In Progress" Story/Ticket for individual
-    * [Link to in progress ticket](http://104.35.27.118/)
+    * [Link to in progress ticket](https://docs.google.com/document/d/1nODveWp0jBzj4ZpFLgWCWTOXzLAHAPUhAQYmZJ4LhyU/edit?usp=sharing)
 * "Backlog" Story/Ticket for individual
     * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57942900)
 * GitHub commit toward "In Progress" ticket
     * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
 * GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
+    * [Link to commit](TBD)
 
 
 ## Possible Ideas to expand into (and who might be able to them) 
