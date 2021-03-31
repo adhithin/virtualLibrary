@@ -16,20 +16,22 @@ booksearch_bp = Blueprint('booksearch', __name__,
 
 @booksearch_bp.route('/', methods=['GET', 'POST'])
 def search():
-    #genres = 'nothing'
-    #if request.method == 'POST':
-       # genres = request.form.getlist('genre')
-      #  print(genres)
-      #  if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
-      #      return render_template("allgenres.html")
-      #  if 'Comedy' in genres:
-      #      return render_template("index.html")
-      #  if 'Nonfiction' in genres:
-      #      return render_template("index.html")
-      #  if 'Romance' in genres:
-      #      return render_template("index.html")
-      #  if 'SciFi' in genres:
-      #      return render_template("index.html")
+    genres = 'nothing'
+    if request.method == 'POST':
+        genres = request.form.getlist('genre')
+        print(genres)
+        if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
+            return render_template("allgenres.html")
+        if 'Comedy' in genres:
+            return render_template("index.html")
+        if 'Nonfiction' in genres:
+            return render_template("index.html")
+        if 'Romance' in genres:
+            return render_template("index.html")
+        if 'SciFi' in genres:
+            return render_template("index.html")
+    if request.form:
+        return render_template("select-book.html", bookrecs=Books(int(request.form.get('series'))))
     return render_template("select-book.html", bookrecs=Books(2))
 
 @booksearch_bp.route('/allgenres', methods=['GET', 'POST'])

@@ -5,7 +5,7 @@ class Books:
     """Initializer of class takes series parameter and returns Class Objectg"""
     def __init__(self, series):
         """Built in validation and exception"""
-        if series < 2 or series > 10:
+        if series < 1 or series > 10:
             raise ValueError("Series must be between 2 and 10")
         self._series = series
         self._list = []
