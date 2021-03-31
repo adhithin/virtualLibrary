@@ -53,11 +53,11 @@ class Books:
 n = 3
 
 # Tester Code
-if __name__ == "__main__":
-    '''Value for testing'''
-    '''Constructor of Class object'''
-    bookrecs = Books(n)
+#if __name__ == "__main__":
+    #'''Value for testing'''
+    #'''Constructor of Class object'''
+   #bookrecs = Books(n)
 
 
     #printing book recs
-    print(f"Here are some book recomendations = {bookrecs.list}")
+   # print(f"Here are some book recomendations = {bookrecs.list}")
