@@ -90,15 +90,11 @@
                     </tr>
                 </table>
 
-                <div id='prova' style='display:none'>{% for i in range(bookrecs.series) %}
-                    <h5>{{bookrecs.get_sequence(i)}}</h5>
-                    {% endfor %}</div>
+                <div id='prova' style='display:none'>{{bookrecs.series}}</div>
 
                 <script>
                     window.onload = function () {
                         setTimeout(appeardiv,2000);
-                        {% for i in range(bookrecs.series) %}
-                        {% endfor %}
                     }
                     function appeardiv() {
                         document.getElementById('prova').style.display= "block";
