@@ -1,5 +1,5 @@
 import random
-from flask import request
+
 
 booklist1 = ["Fault in our Stars,", "Harry Potter Volume 1", "Percy Jackson", "Calculus 1 Textbook", "Scarlet Letter", "Romeo & Juliet", "Sesame Street", "Coding for Kids"]
 
@@ -26,7 +26,7 @@ class Books:
     """Algorithm for building Fibonacci sequence, this id called from __init__"""
     def book_series(self):
         limit = self._series
-        f = [(random.sample((booklist1), k=1))]  # fibonacci starting array/list
+        f = [(random.sample((booklist1), k=2))]  # fibonacci starting array/list
         while limit > 0:
             self.set_data(f[0])
             f = [f[0]]
@@ -36,7 +36,7 @@ class Books:
     def set_data(self, num):
         self._list.append(num)
         self._dict[self._dictID] = self._list.copy()
-        self._dictID += 2
+        self._dictID += 1
 
 
     """Getters with decorator to allow . notation access"""
@@ -58,17 +58,12 @@ class Books:
 
 
 
-#Tester Code
-# __name__ == "__main__":
-   # '''Value for testing'''
-   # '''Constructor of Class object'''
-
-
-#bookrecs = Books(a)
-
-
-   # printing book recs
-#print(f"Here are some book recomendations = {bookrecs.list}")
+if __name__ == "__main__":
+    '''Value for testing'''
+    a = 2
+    '''Constructor of Class object'''
+    bookrecs = Books(a/a)
+    print(f"Here are some book recomendations = {bookrecs.list}")
 
 #for i in range(a):
     #print(f"Listing of Book Recs {i}= {bookrecs.get_sequence(i)}")

@@ -32,7 +32,7 @@ def search():
         #    return render_template("index.html")
     if request.method == 'POST':
         a = int(request.form.get("series"))
-        bookrecs = Books(a)
+        bookrecs = Books(a/a)
         return render_template("select-book.html", bookrecs=Books(a))
     return render_template("select-book.html", bookrecs=Books(1))
 
