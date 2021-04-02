@@ -1,11 +1,17 @@
-"""Fibonacci algorithm contained within a class """
+import random
+
+
+booklist1 = ["Fault in our Stars,", "Harry Potter Volume 1", "Percy Jackson", "Calculus 1 Textbook", "Scarlet Letter", "Romeo & Juliet", "Sesame Street", "Coding for Kids"]
+
+booklist2 = ["Fault in our Stars,", "Harry Potter Volume 1", "Romeo & Juliet"]
+
 
 
 class Books:
     """Initializer of class takes series parameter and returns Class Objectg"""
     def __init__(self, series):
         """Built in validation and exception"""
-        if series < 2 or series > 10:
+        if series < 0 or series > 6:
             raise ValueError("Series must be between 2 and 10")
         self._series = series
         self._list = []
@@ -20,10 +26,10 @@ class Books:
     """Algorithm for building Fibonacci sequence, this id called from __init__"""
     def book_series(self):
         limit = self._series
-        f = ["book 1", "book 2", "book3"]  # fibonacci starting array/list
+        f = [(random.sample((booklist1), k=2))]  # fibonacci starting array/list
         while limit > 0:
             self.set_data(f[0])
-            f = [f[1], f[0]]
+            f = [f[0]]
             limit -= 1
 
     """Method/Function to set Fibonacci data: list, dict, and dictID are instance variables of Class"""
@@ -50,14 +56,14 @@ class Books:
     def get_sequence(self, nth):
         return self._dict[nth]
 
-n = 3
 
-# Tester Code
+
 if __name__ == "__main__":
     '''Value for testing'''
+    a = 2
     '''Constructor of Class object'''
-    bookrecs = Books(n)
-
-
-    #printing book recs
+    bookrecs = Books(a/a)
     print(f"Here are some book recomendations = {bookrecs.list}")
+
+#for i in range(a):
+    #print(f"Listing of Book Recs {i}= {bookrecs.get_sequence(i)}")

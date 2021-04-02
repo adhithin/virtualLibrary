@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
     <style>
         input[type=checkbox] + label {
@@ -21,8 +23,8 @@
             border: 0.1em solid #000;
             border-radius: 0.2em;
             display: inline-block;
-            width: 1em;
-            height: 1em;
+            width: 1.5em;
+            height: 1.5em;
             padding-left: 0.2em;
             padding-bottom: 0.2em;
             margin-right: 0.2em;
@@ -62,10 +64,52 @@
                     <label for="genre3">Comedy</label>
                     <input type="checkbox" id="genre4" name="genre" value="SciFi">
                     <label for="genre4">SciFi</label>
-                    <button align="center" type="submit" class="w3-center w3-button w3-blue" style="border-radius:10px"> FIND </button>
+                    <button class="btn  my-2 my-sm-0 text-white bg-info" type="submit"> Get book recomendations!</button>
                 </form>
             </section>
         </div>
+
+
+        <div class="jumbotron text-center row">
+            <div>
+                <h3>How many book recs do you want? </h3>
+                <form id="fibForm" action="" method="POST" >
+                    <input name="series" id="series" type="number" min="1" max="3" >
+                    <button class="btn  my-2 my-sm-0 text-white bg-danger" type="submit"> Get book recomendations!</button>
+
+                </form>
+            </div>
+
+            <div class="col-md-6">
+                <h3>Here are {{bookrecs.series}} book recs!</h3>
+                <!-- Number, List table -->
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">{{bookrecs.series}} books: </th>
+                        <th scope="col">{{bookrecs.list}}</th>
+                    </tr>
+                </table>
+
+                <div id='prova' style='display:none'>{{bookrecs.list}}</div>
+
+                <script>
+                    window.onload = function () {
+                        setTimeout(appeardiv,2000);
+                    }
+                    function appeardiv() {
+                        document.getElementById('prova').style.display= "block";
+                    }
+                </script>
+
+
+            </div>
+
+
+        </div>
+            </div>
+        </div>
+
+
 
 </container>
 
