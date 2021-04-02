@@ -7,44 +7,27 @@
 <body>
 <div>
     <div>
-        <!-- Title -->
-        <div>
-            <h1>Fibonacci series in Python</h1>
-        </div>
-
         <!-- Input and Content -->
         <div>
             <div>
-                <h3>Type the nth row of Pascal's Triangle?</h3>
-                <form id="fibForm" action="/findabook/algo" method="POST" >
+                <h3 style="text-align: center; ">Type the nth row of Pascal's Triangle!</h3>
+                <form id="fibForm" action="/findabook/algo" style="text-align: center; " method="POST" >
                     <input name="series" id="series" type="number" min="2" max="100" >
                     <button>Go!</button>
                 </form>
             </div>
 
             <div>
-                <h3>Pascal's Triangle for for {{pascal.series}}</h3>
-                <!-- Number, List table -->
-                <table class="mx-auto">
-                    <tr>
-                        <th scope="col">Number</th>
-                        <th scope="col">List</th>
-                    </tr>
-                    <tr>
-                        <td>{{pascal.number}}</td>
-                        <td>{{pascal.list}}</td>
-                    </tr>
-                </table>
+                <h3 style="text-align: center;">Pascal's Triangle with {{pascal.series}} Rows</h3>
             </div>
         </div>
 
         <!-- Sequence -->
-        <div class="col-12" style="text-align: left; ">
+        <div style="text-align: center; ">
             <!-- Series -->
-            <h3>Fibonacci build up for series: {{pascal.series}} number: {{pascal.number}}</h3>
             <div class="overflow-auto" style="height: 200px">
                 {% for i in range(pascal.series) %}
-                <h5>{{pascal.get_sequence(i)}}</h5>
+                <h5>{{pascal.get_lastnumber(i)}}</h5>
                 {% endfor %}
             </div>
     </div>

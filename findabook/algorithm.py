@@ -17,10 +17,10 @@ class Pascal:
     """Algorithm for building Fibonacci sequence, this id called from __init__"""
     def calc_series(self):
         limit = self._series
-        f = [0, 1, 1]  # fibonacci starting array/list
+        f = [1, 11]  # fibonacci starting array/list
         while limit > 0:
             self.set_data(f[0])
-            f = [f[1], f[0] + f[1]]
+            f = [f[1], (f[1])*11]
             limit -= 1
 
     """Method/Function to set Fibonacci data: list, dict, and dictID are instance variables of Class"""
@@ -43,14 +43,14 @@ class Pascal:
         return self._list[self._dictID - 1]
 
     """Traditional Getter requires method access"""
-    def get_sequence(self, nth):
-        return self._dict[nth]
+    def get_lastnumber(self, nth):
+        return self._list[nth]
 
 
 # Tester Code
 if __name__ == "__main__":
     '''Value for testing'''
-    n = 30
+    n = 20
     '''Constructor of Class object'''
     pascal = Pascal(n)
 
@@ -60,4 +60,4 @@ if __name__ == "__main__":
 
     '''Using method to get data from object'''
     for i in range(n):
-        print(f"Fibonacci sequence {i + 1} = {pascal.get_sequence(i)}")
+        print(f"Pascal's triangle: row {i + 1} = {pascal.get_lastnumber(i)}")
