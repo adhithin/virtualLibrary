@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Pascal's Triangle</title>
 </head>
 <body>
+<div>
+    <div>
+        <!-- Title -->
+        <div>
+            <h1>Fibonacci series in Python</h1>
+        </div>
 
+        <!-- Input and Content -->
+        <div>
+            <div>
+                <h3>Type the nth row of Pascal's Triangle?</h3>
+                <form id="fibForm" action="/findabook/algo" method="POST" >
+                    <input name="series" id="series" type="number" min="2" max="100" >
+                    <button>Go!</button>
+                </form>
+            </div>
+
+            <div>
+                <h3>Pascal's Triangle for for {{pascal.series}}</h3>
+                <!-- Number, List table -->
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">Number</th>
+                        <th scope="col">List</th>
+                    </tr>
+                    <tr>
+                        <td>{{pascal.number}}</td>
+                        <td>{{pascal.list}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Sequence -->
+        <div class="col-12" style="text-align: left; ">
+            <!-- Series -->
+            <h3>Fibonacci build up for series: {{pascal.series}} number: {{pascal.number}}</h3>
+            <div class="overflow-auto" style="height: 200px">
+                {% for i in range(pascal.series) %}
+                <h5>{{pascal.get_sequence(i)}}</h5>
+                {% endfor %}
+            </div>
+    </div>
+
+</div>
+</div>
+<style>
+    table, td, th {
+        border: 1px solid var(--dblue);
+    }
+    td, th {
+        text-align:left;
+    }
+</style>
 </body>
 </html>
