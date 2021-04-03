@@ -15,7 +15,7 @@ class Series:
         self._dictID = 0
         # Duration timeElapsed;
         # Instant start = Instant.now();  // time capture -- start
-        self.funstion_series()
+        self.function_series()
         # Instant end = Instant.now();    // time capture -- end
         # this.timeElapsed = Duration.between(start, end);
 
