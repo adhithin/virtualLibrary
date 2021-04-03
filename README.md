@@ -1,6 +1,6 @@
 # virtualLibrary P3Rats
 
-here is our [project plan](https://padlet.com/ketkic61666/Rats)
+Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
 MiniLab: Classes in Python
 1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution.
