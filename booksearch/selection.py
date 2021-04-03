@@ -8,11 +8,11 @@ booklist2 = ["Fault in our Stars,", "Harry Potter Volume 1", "Romeo & Juliet"]
 
 
 class Books:
-    """Initializer of class takes series parameter and returns Class Objectg"""
+    """Initializer of class takes series parameter and returns Class Objects"""
     def __init__(self, series):
         """Built in validation and exception"""
         if series < 0 or series > 6:
-            raise ValueError("Series must be between 2 and 10")
+            raise ValueError("Series must be between 0 and 6")
         self._series = series
         self._list = []
         self._dict = {}
@@ -23,16 +23,16 @@ class Books:
         # Instant end = Instant.now();    // time capture -- end
         # this.timeElapsed = Duration.between(start, end);
 
-    """Algorithm for building Fibonacci sequence, this id called from __init__"""
+    """Algorithm for building book series list, this id called from __init__"""
     def book_series(self):
         limit = self._series
-        f = [(random.sample((booklist1), k=2))]  # fibonacci starting array/list
+        f = [(random.sample((booklist1), k=3))]
         while limit > 0:
             self.set_data(f[0])
             f = [f[0]]
             limit -= 1
 
-    """Method/Function to set Fibonacci data: list, dict, and dictID are instance variables of Class"""
+    """Method/Function to set data: list, dict, and dictID are instance variables of Class"""
     def set_data(self, num):
         self._list.append(num)
         self._dict[self._dictID] = self._list.copy()
@@ -60,7 +60,7 @@ class Books:
 
 if __name__ == "__main__":
     '''Value for testing'''
-    a = 2
+    a = 3
     '''Constructor of Class object'''
     bookrecs = Books(a/a)
     print(f"Here are some book recomendations = {bookrecs.list}")
