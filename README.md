@@ -3,7 +3,7 @@
 Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
 ### MiniLab: Classes in Python
-1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution.
+##### 1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution.
   * Aditi
     * [Blueprint Integration in main.py](https://github.com/adhithin/virtualLibrary/blob/bcf48349bf3b05f2a85cd7d77828092cfc67c2bb/main.py#L9-L16)
     * [Blueprinted directory](https://github.com/adhithin/virtualLibrary/tree/main/findabook)
