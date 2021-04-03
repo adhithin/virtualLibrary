@@ -11,12 +11,16 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
     * [Blueprinted directory](https://github.com/adhithin/virtualLibrary/tree/main/findabook)
   * Ketki
     * [Minilab in Individual Blueprint](https://github.com/adhithin/virtualLibrary/blob/main/randombook/author.py)
+  * Dayita
+    * [Minilab in Individual Blueprint](https://github.com/adhithin/virtualLibrary/tree/main/booksmart)
 ##### 2. Enhance or Define a Class to manage a complex data set
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L1-L15)
   * [Ketki](https://github.com/adhithin/virtualLibrary/blob/636e747c430eba952dfb3097829fd7fad77de8e6/randombook/author.py#L6-L20)
+  * [Dayita](https://github.com/adhithin/virtualLibrary/blob/879a4ea4b46647741f11f94efb0161449bfd07d2/booksmart/rat.py#L6)
 ##### 3. Create an Object from a Class in Python. 
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L55)
   * [Ketki](https://github.com/adhithin/virtualLibrary/blob/636e747c430eba952dfb3097829fd7fad77de8e6/randombook/author.py#L57-L62)
+  * [Dayita](https://github.com/adhithin/virtualLibrary/blob/879a4ea4b46647741f11f94efb0161449bfd07d2/booksmart/rat.py#L7)
 ##### 4. Display data or enhanced data from this Python Object on Project Web Page using "getters".
   * Aditi
     * [Getters in algorithm.py](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L33-L63)
@@ -25,9 +29,13 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
   * Ketki
     * [Getters](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L32-L53)
     * [Data displayed on website](http://104.35.27.118/randombook)
+  * Dayita
+    * [Getters](https://github.com/adhithin/virtualLibrary/blob/879a4ea4b46647741f11f94efb0161449bfd07d2/booksmart/rat.py#L43)
+    * [Data displayed on website](http://104.35.27.118/booksmart)
 ##### 5. Highlight WOW or insight in doing this project.  (ie Mastery Show adding timing to Class to Displaying it on Web)
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L63): In Mr. M's example, the entire fibonacci sequence is shown. However, in my example, I did not want to show the entire list, I just wanted to show the last number. So I used the getter get_lastnumber to do this. 
   * Ketki: reload the page to get a new author rec each time! 
+  * Dayita: Gives you a new sequence each time and has factorials!
 
 ## Possible Ideas to expand into (and who might be able to them) 
 
