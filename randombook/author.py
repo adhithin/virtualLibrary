@@ -22,7 +22,7 @@ class Authors:
 
     def authors_list(self):
         limit = self._series
-        f = [(random.sample((authorlist1), k=2))]  # fibonacci starting array/list
+        f = [(random.sample((authorlist1), k=a))]  # fibonacci starting array/list
         while limit > 0:
             self.set_data(f[0])
             f = [f[0]]
@@ -56,7 +56,7 @@ class Authors:
 
 if __name__ == "__main__":
     '''Value for testing'''
-    a = 2
+    a = 4
     '''Constructor of Class object'''
     authorrecs = Authors(a/a)
     print(f"Here are some author recomendations = {authorrecs.list}")
