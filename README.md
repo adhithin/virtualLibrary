@@ -10,10 +10,10 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 ##### 2. Enhance or Define a Class to manage a complex data set
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L1-L15)
 ##### 3. Create an Object from a Class in Python. 
-  * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L18-L24)
+  * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L55)
 ##### 4. Display data or enhanced data from this Python Object on Project Web Page using "getters".
   * Aditi
-    * [Getters in algoritm.py](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L33-L47)
+    * [Getters in algoritm.py](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L33-L63)
     * [display in algorithm.html](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/templates/algorithm.html#L21-L30)
 ##### 5. Highlight WOW or insight in doing this project.  (ie Mastery Show adding timing to Class to Displaying it on Web)
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L63): In Mr. M's example, the entire fibonacci sequence is shown. However, in my example, I did not want to show the entire list, I just wanted to show the last number. So I used the getter get_lastnumber to do this. 
