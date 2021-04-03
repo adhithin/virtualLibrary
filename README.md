@@ -8,7 +8,7 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
     * [Blueprint Integration in main.py](https://github.com/adhithin/virtualLibrary/blob/bcf48349bf3b05f2a85cd7d77828092cfc67c2bb/main.py#L9-L16)
     * [Blueprinted directory](https://github.com/adhithin/virtualLibrary/tree/main/findabook)
 ##### 2. Enhance or Define a Class to manage a complex data set
-  * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L1)
+  * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L1-L15)
 ##### 3. Create an Object from a Class in Python. 
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L18-L24)
 ##### 4. Display data or enhanced data from this Python Object on Project Web Page using "getters".
