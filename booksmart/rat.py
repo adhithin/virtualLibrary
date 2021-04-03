@@ -3,7 +3,7 @@ import random
 function1 = ["1", "x", "x^2", "x^3", "x^4"]
 function2 = ["1", "x", "x^2"]
 
-class Series:
+class Rats:
     """Initializer of class takes series parameter and returns Class Objects"""
     def __init__(self, series):
         """Built in validation and exception"""
@@ -22,10 +22,15 @@ class Series:
 
     def function_series(self):
         limit = self._series
-        f = [(random.sample((function1), k=a))]
+        f = [5]
+        factorial = 1
         while limit > 0:
             self.set_data(f[0])
-            f = [f[0]]
+            for i in range(1,5 + 1):
+                factorial = factorial*i
+                list = f.append(factorial)
+                print(factorial)
+            #f = [f[0], f[1]*f[0]]
             limit -= 1
 
     """Method/Function to set Fibonacci data: list, dict, and dictID are instance variables of Class"""
@@ -56,9 +61,11 @@ class Series:
 
 if __name__ == "__main__":
     '''Value for testing'''
-    a = 4
+    n = 5
     '''Constructor of Class object'''
-    functionseries = Rats(a/a)
-    print(f"Here are some series members of e^x = {functionseries.list}")
-
+    functionseries = Rats(n/n)
+    print(f"Here are some series members of e^x =" + Rats(n/n))
+    #print (factorial)
+#for i in range(n):
+    #print(f"Fibonacci sequence {i + 1} = {functionseries.get_sequence(i)}")
 
