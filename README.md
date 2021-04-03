@@ -1,81 +1,23 @@
 # virtualLibrary P3Rats
 
-here is our <a href="https://padlet.com/ketkic61666/Rats" > project plan </a> 
+Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
-## Sprint #1 
-
-#### Group Binary Crossover Grading: 
-* Project Plan
-    * [Link to our padlet](https://padlet.com/ketkic61666/Rats)
-* Project Idea to Support Individual members work within the plan (routes, blueprints, etc)
-    * [Link to padlet](https://padlet.com/ketkic61666/Rats). Each different section of our project is highlighted in the padlet. Each section will also have its own blueprinted directory
-* 1st Deployed Website
-    * [Link to deployed website](http://104.35.27.118/)
-* BluePrints in place in version control
-    * [Link to bluprint setup in main.py](https://github.com/adhithin/virtualLibrary/blob/41102773dccac1923073fc86aba6d595116dd84e/main.py#L9-L16)
-    * The directories in our project called emails, booksearch, findabook, and randombook are all blueprinted directories. 
-* Scrum Board "In Progress" tickets active and assigned
-    * [Link to project board](https://github.com/adhithin/virtualLibrary/projects/1). Each person has their own "In Progress" ticket.
-* Scrum Board "Backlog" tickets defined for each member
-    * [Link to project board](https://github.com/adhithin/virtualLibrary/projects/1). Each person has their own "Backlog" ticket. 
-
-#### Team Goals 
-* Deployment is ready 
-* Set up html templates 
-* Create our project plan
-* Create main.py file
-* Organize tasks on the scrum board and set that up 
-* Designing the homepage + nav bar
-
-
-#### Aditi's Individual Binary Crossover Grading
-* "In Progress" Story/Ticket for individual
-    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450849)
-* "Backlog" Story/Ticket for individual
-    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57624715)
-* GitHub commit toward "In Progress" ticket
-    * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
-* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/b2be573647be49ca2ad00bbab19abe7835fd43f7)
-    
-#### Adi's Individual Binary Crossover Grading
-* "In Progress" Story/Ticket for individual
-    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57448832)
-* "Backlog" Story/Ticket for individual
-    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57571362)
-* GitHub commit toward "In Progress" ticket
-    * [Link to heat map](https://github.com/adhithin/virtualLibrary/commits?author=adhithin)
-* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](https://github.com/adhithin/virtualLibrary/commit/5f45c8cd27cd8e3d8080822b744c8e50e9fd4a5c)
-    
-#### Ketki's Individual Binary Crossover Grading
-* "In Progress" Story/Ticket for individual
-    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450670)
-* "Backlog" Story/Ticket for individual
-    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57450758)
-* GitHub commit toward "In Progress" ticket
-    * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
-* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](https://github.com/adhithin/virtualLibrary/tree/main/randombook)
-    
-#### Luke Individual Binary Crossover Grading
-* "In Progress" Story/Ticket for individual
-    * [Link to in progress ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57881910)
-* "Backlog" Story/Ticket for individual
-    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57881936)
-* GitHub commit toward "In Progress" ticket
-    * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
-
-#### Dayita's Individual Binary Crossover Grading
-* "In Progress" Story/Ticket for individual
-    * [Link to in progress ticket](https://docs.google.com/document/d/1nODveWp0jBzj4ZpFLgWCWTOXzLAHAPUhAQYmZJ4LhyU/edit?usp=sharing)
-* "Backlog" Story/Ticket for individual
-    * [Link to backlog ticket](https://github.com/adhithin/virtualLibrary/projects/1#card-57942900)
-* GitHub commit toward "In Progress" ticket
-    * [Link to heat map](https://github.com/adhithin/virtualLibrary/graphs/contributors)
-* GitHub commit toward Mini Lab in a BluePrint GitHub location for individual
-    * [Link to commit](TBD)
-
+### MiniLab: Classes in Python
+##### 1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution.
+  * Aditi
+    * [Blueprint Integration in main.py](https://github.com/adhithin/virtualLibrary/blob/bcf48349bf3b05f2a85cd7d77828092cfc67c2bb/main.py#L9-L16)
+    * [Blueprinted directory](https://github.com/adhithin/virtualLibrary/tree/main/findabook)
+##### 2. Enhance or Define a Class to manage a complex data set
+  * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L1-L15)
+##### 3. Create an Object from a Class in Python. 
+  * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L55)
+##### 4. Display data or enhanced data from this Python Object on Project Web Page using "getters".
+  * Aditi
+    * [Getters in algorithm.py](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L33-L63)
+    * [display in algorithm.html](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/templates/algorithm.html#L21-L30)
+    * [Website Link Showing Frontend of Algorithm](http://104.35.27.118/findabook/algo)
+##### 5. Highlight WOW or insight in doing this project.  (ie Mastery Show adding timing to Class to Displaying it on Web)
+  * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L63): In Mr. M's example, the entire fibonacci sequence is shown. However, in my example, I did not want to show the entire list, I just wanted to show the last number. So I used the getter get_lastnumber to do this. 
 
 ## Possible Ideas to expand into (and who might be able to them) 
 
