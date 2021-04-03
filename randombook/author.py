@@ -22,7 +22,7 @@ class Authors:
 
     def authors_list(self):
         limit = self._series
-        f = [(random.sample((authorlist1), k=a))]  # fibonacci starting array/list
+        f = [(random.sample((authorlist1), k=2))]  # fibonacci starting array/list
         while limit > 0:
             self.set_data(f[0])
             f = [f[0]]
