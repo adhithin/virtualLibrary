@@ -11,7 +11,7 @@ def aditihome():
     return render_template("step1.html")
 
 @bookfinder_bp.route('/algo', methods=["GET", "POST"])
-def fibonacci():
+def pascalalgo():
     if request.form:
         return render_template("algorithm.html", pascal=Pascal(int(request.form.get("series"))))
     return render_template("algorithm.html", pascal=Pascal(2))
