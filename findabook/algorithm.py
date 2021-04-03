@@ -55,8 +55,8 @@ if __name__ == "__main__":
     pascal = Pascal(n)
 
     '''Using getters to obtain data from object'''
-    print(f"Fibonacci number for {n} = {pascal.number}")
-    print(f"Fibonacci series for {n} = {pascal.list}")
+    print(f"Pascal's number for {n} = {pascal.number}")
+    print(f"Pascal's series for {n} = {pascal.list}")
 
     '''Using method to get data from object'''
     for i in range(n):
