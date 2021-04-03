@@ -22,7 +22,7 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
     * [Website Link Showing Frontend of Algorithm](http://104.35.27.118/findabook/algo)
    * Ketki
     * [Getters](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L32-L53)
-    * [Data displayed on website](http://104.35.27.118/randombook)
+    
 ##### 5. Highlight WOW or insight in doing this project.  (ie Mastery Show adding timing to Class to Displaying it on Web)
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L63): In Mr. M's example, the entire fibonacci sequence is shown. However, in my example, I did not want to show the entire list, I just wanted to show the last number. So I used the getter get_lastnumber to do this. 
   * Ketki: reload the page to get a new author rec each time! 
