@@ -10,7 +10,7 @@ from emails.app import emails_bp
 from findabook.app import bookfinder_bp
 from booksearch.app import booksearch_bp
 from booksmart.app import booksmart_bp
-from MiniLab.app import MiniLab_bp
+#from MiniLab.app import MiniLab_bp
 
 
 
@@ -19,7 +19,7 @@ app.register_blueprint(emails_bp, url_prefix='/emails')
 app.register_blueprint(bookfinder_bp, url_prefix='/findabook')
 app.register_blueprint(booksearch_bp, url_prefix='/booksearch')
 app.register_blueprint(booksmart_bp, url_prefix='/booksmart')
-app.register_blueprint(MiniLab_bp, url_prefix='/MiniLab')
+#app.register_blueprint(MiniLab_bp, url_prefix='/MiniLab')
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
