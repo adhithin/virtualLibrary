@@ -9,28 +9,25 @@ booklist2 = ["Fault in our Stars,", "Harry Potter Volume 1", "Romeo & Juliet"]
 
 class Books:
     """Initializer of class takes series parameter and returns Class Objects"""
-    def __init__(self, series):
+    def __init__(self, recs):
         """Built in validation and exception"""
-        if series < 0 or series > 6:
+        if recs < 0 or recs > 6:
             raise ValueError("Series must be between 0 and 6")
-        self._series = series
+        self._recs = recs
         self._list = []
         self._dict = {}
         self._dictID = 0
         # Duration timeElapsed;
         # Instant start = Instant.now();  // time capture -- start
-        self.book_series()
+        self.book_recs()
         # Instant end = Instant.now();    // time capture -- end
         # this.timeElapsed = Duration.between(start, end);
 
     """Algorithm for building book series list, this id called from __init__"""
-    def book_series(self):
-        limit = self._series
-        f = [(random.sample((booklist1), k=3))]
-        while limit > 0:
-            self.set_data(f[0])
-            f = [f[0]]
-            limit -= 1
+    def book_recs(self):
+        f = [(random.sample((booklist1), k=self._recs))]
+        self.set_data(f[0])
+        f = [f[0]]
 
     """Method/Function to set data: list, dict, and dictID are instance variables of Class"""
     def set_data(self, num):
@@ -60,9 +57,9 @@ class Books:
 
 if __name__ == "__main__":
     '''Value for testing'''
-    a = 3
+
     '''Constructor of Class object'''
-    bookrecs = Books(a/a)
+    bookrecs = Books(3)
     print(f"Here are some book recomendations = {bookrecs.list}")
 
 #for i in range(a):
