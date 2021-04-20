@@ -2,8 +2,8 @@ class Pascal:
     """Initializer of class takes series parameter and returns Class Object"""
     def __init__(self, series):
         """Built in validation and exception"""
-        if series < 2 or series > 100:
-            raise ValueError("Series must be between 2 and 100")
+        if series < 2 or series > 5:
+            raise ValueError("Series must be between 2 and 5")
         self._series = series
         self._list = []
         self._dict = {}
@@ -17,7 +17,7 @@ class Pascal:
     """Algorithm for building Fibonacci sequence, this id called from __init__"""
     def calc_series(self):
         limit = self._series
-        f = [1, 11]  # fibonacci starting array/list
+        f = [1, 11]  # pascal starting array/list
         while limit > 0:
             self.set_data(f[0])
             f = [f[1], (f[1])*11]
@@ -50,7 +50,7 @@ class Pascal:
 # Tester Code
 if __name__ == "__main__":
     '''Value for testing'''
-    n = 20
+    n = 5
     '''Constructor of Class object'''
     pascal = Pascal(n)
 
