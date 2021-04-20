@@ -1,7 +1,7 @@
 import random
 
-function1 = ["1", "x", "x^2", "x^3", "x^4"]
-function2 = ["1", "x", "x^2"]
+function1 = ["x!", "(x+1)!)", "(x+2)!", "(x+3)!", "(x+4)!"]
+function2 = ["x!", "(x+1)!", "(x+2)!"]
 
 class Rats:
     """Initializer of class takes series parameter and returns Class Objects"""
@@ -64,7 +64,7 @@ if __name__ == "__main__":
     n = 5
     '''Constructor of Class object'''
     functionseries = Rats(n/n)
-    print(f"Here are some series members of e^x =" + Rats(n/n))
+    print(f"Here are some members of the series = {functionseries.list}")
     #print (factorial)
 #for i in range(n):
     #print(f"Fibonacci sequence {i + 1} = {functionseries.get_sequence(i)}")
