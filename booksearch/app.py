@@ -52,5 +52,5 @@ def quiz():
 
 @booksearch_bp.route('/bubblesort', methods=['GET', 'POST'])
 def alphabetize():
-    sort = request.form.get.list("sort")
-    return render_template("bookquiz.html", bookquiz=NeuralNetwork(X, y))
+    sort = request.form.getlist("sort")
+    return render_template("bubblesort.html", bubbles=BubbleSort(sort))
