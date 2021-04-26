@@ -47,11 +47,11 @@ class BubbleSort:
         """Getters with decorator to allow . notation access"""
     @property
     def series(self):
-        return self._series
+        return self.bubble_sort
 
     @property
     def list(self):
-        return bubbleSort(self._arr)
+        return self._arr
 
     @property
     def number(self):
@@ -69,6 +69,7 @@ if __name__ == "__main__":
     '''Constructor of Class object'''
     x = [2, 1, 64, 23, 7]
     bubbles = BubbleSort(x)
+
 
 
 
