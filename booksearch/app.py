@@ -7,6 +7,9 @@ from sqlalchemy import desc
 import smtplib
 import time
 from booksearch.selection import Books
+from booksearch.quiz import NeuralNetwork
+import numpy as np
+from booksearch.bubblesort import BubbleSort
 
 
 booksearch_bp = Blueprint('booksearch', __name__,
@@ -16,20 +19,20 @@ booksearch_bp = Blueprint('booksearch', __name__,
 
 @booksearch_bp.route('/', methods=['GET', 'POST'])
 def search():
-    #genres = 'nothing'
-    #if request.method == 'POST':
-        #genres = request.form.getlist('genre')
-        #print(genres)
-        #if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
-        #    return render_template("allgenres.html")
-        #if 'Comedy' in genres:
-        #    return render_template("index.html")
-        #if 'Nonfiction' in genres:
-        #    return render_template("index.html")
-        #if 'Romance' in genres:
-        #    return render_template("index.html")
-        #if 'SciFi' in genres:
-        #    return render_template("index.html")
+    genres = 'nothing'
+    if request.method == 'POST':
+        genres = request.form.getlist('genre')
+        print(genres)
+        if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
+            return render_template("allgenres.html")
+        if 'Comedy' in genres:
+            return render_template("index.html")
+        if 'Nonfiction' in genres:
+            return render_template("index.html")
+        if 'Romance' in genres:
+            return render_template("index.html")
+        if 'SciFi' in genres:
+            return render_template("index.html")
     if request.method == 'POST':
         return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))))
     return render_template("select-book.html", bookrecs=Books(1))
@@ -37,3 +40,17 @@ def search():
 @booksearch_bp.route('/allgenres', methods=['GET', 'POST'])
 def allgenres():
     return render_template("allgenres.html")
+
+@booksearch_bp.route('/bookquiz', methods=['GET', 'POST'])
+def quiz():
+    X = np.array([[0,0,1],#these are our inputs. first number: if they eat bananas. second: strawberries; third: blueberries
+                  [0,1,0],
+                  [1,0,0],
+                  [1,1,1]])
+    y = np.array([[0],[0],[0],[0]])
+    return render_template("bookquiz.html", bookquiz=NeuralNetwork(X, y))
+
+@booksearch_bp.route('/bubblesort', methods=['GET', 'POST'])
+def alphabetize():
+    sort = request.form.get.list("sort")
+    return render_template("bookquiz.html", bookquiz=NeuralNetwork(X, y))
