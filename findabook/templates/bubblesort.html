@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pascal's Triangle</title>
+</head>
+<body>
+<div>
+    <div>
+        <!-- Input and Content -->
+        <div>
+            <div>
+                <h3 style="text-align: center; ">Type the nth row of Pascal's Triangle!</h3>
+                <form id="fibForm" action="/findabook/bubblesort" style="text-align: center; " method="POST" >
+                    <input name="series" id="series" type="number" min="2" max="5" >
+                    <button>Go!</button>
+                </form>
+            </div>
+
+            <div>
+                <h3 style="text-align: center;">Pascal's Triangle with {{pascal.series}} Rows</h3>
+            </div>
+        </div>
+
+        <!-- Sequence -->
+        <div style="text-align: center; ">
+            <!-- Series -->
+            <div class="overflow-auto" style="height: 200px">
+                {% for i in range(pascal.series) %}
+                <h5>{{pascal.get_lastnumber(i)}}</h5>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</div>
+<style>
+    table, td, th {
+        border: 1px solid var(--dblue);
+    }
+    td, th {
+        text-align:left;
+    }
+</style>
+</body>
+</html>

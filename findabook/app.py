@@ -15,3 +15,9 @@ def pascalalgo():
     if request.form:
         return render_template("algorithm.html", pascal=Pascal(int(request.form.get("series"))))
     return render_template("algorithm.html", pascal=Pascal(2))
+
+@bookfinder_bp.route('/bubblesort', methods=["GET", "POST"])
+def bubblesort():
+    if request.form:
+        return render_template("algorithm.html", pascal=Pascal(int(request.form.get("series"))))
+    return render_template("algorithm.html", pascal=Pascal(2))
