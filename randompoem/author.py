@@ -1,7 +1,7 @@
 import random
 
-authorlist1 = ["J K Rowling", "Rick Riordan", "Mark Twain", "Charles Dickens", "Jane Austen"]
-authorlist2 = ["Mark Twain", "Jane Austen", "Rick Riordan"]
+authorlist1 = ["J K Rowling", "Rick Riordan", "Mark Twain", "Charles Dickens", "Jane Austen", "Beverley Cleary"]
+# authorlist2 = ["Mark Twain", "Jane Austen", "Rick Riordan"]
 
 class Authors:
     """Initializer of class takes series parameter and returns Class Objects"""
@@ -21,8 +21,8 @@ class Authors:
 
 
     def authors_list(self):
-        limit = self._series
-        f = [(random.sample((authorlist1), k=2))]  # fibonacci starting array/list
+        limit = 1
+        f = [(random.sample((authorlist1), k=4))]  # fibonacci starting array/list
         while limit > 0:
             self.set_data(f[0])
             f = [f[0]]
@@ -58,7 +58,7 @@ if __name__ == "__main__":
     '''Value for testing'''
     a = 4
     '''Constructor of Class object'''
-    authorrecs = Authors(a/a)
+    authorrecs = Authors(1)
     print(f"Here are some author recomendations = {authorrecs.list}")
 
 

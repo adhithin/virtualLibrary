@@ -27,7 +27,7 @@ class Books:
     def book_recs(self):
         f = [(random.sample((booklist1), k=self._recs))]
         self.set_data(f[0])
-        f = [f[0]]
+        f = [f[0]] ## play with this = do we need f(0)
 
     """Method/Function to set data: list, dict, and dictID are instance variables of Class"""
     def set_data(self, num):
