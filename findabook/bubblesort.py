@@ -1,55 +1,14 @@
-class Pascal:
-    def __init__(self, series):
-        if series < 2 or series > 5:
-            raise ValueError("Series must be between 2 and 5")
-        self._series = series
-        self._list = []
-        self._dict = {}
-        self._dictID = 0
-        # Duration timeElapsed;
-        # Instant start = Instant.now();  // time capture -- start
-        self.calc_series()
-        # Instant end = Instant.now();    // time capture -- end
-        # this.timeElapsed = Duration.between(start, end);
+def BubbleSort(int_list):
+    p = len(int_list)
+    for i in range(p-1):
+        for j in range(0, p-i-1):
+            if int_list[j] > int_list[j+1] :
+                int_list[j], int_list[j+1] = int_list[j+1], int_list[j]
 
+int_list = [64, 34, 25, 12, 22, 11, 90]
 
-    def calc_series(self):
-        limit = self._series
-        f = [1, 11]  # pascal starting array/list
-        while limit > 0:
-            self.set_data(f[0])
-            f = [f[1], (f[1])*11]
-            limit -= 1
+BubbleSort(int_list)
 
-
-    def set_data(self, num):
-        self._list.append(num)
-        self._dict[self._dictID] = self._list.copy()
-        self._dictID += 1
-
-
-    @property
-    def series(self):
-        return self._series
-
-    @property
-    def list(self):
-        return self._list
-
-    @property
-    def number(self):
-        return self._list[self._dictID - 1]
-
-
-    def get_lastnumber(self, nth):
-        return self._list[nth]
-
-
-# Tester Code
-if __name__ == "__main__":
-    n = 5
-    pascal = Pascal(n)
-    print(f"Pascal's number for {n} = {pascal.number}")
-    print(f"Pascal's series for {n} = {pascal.list}")
-    for i in range(n):
-        print(f"Pascal's triangle: row {i + 1} = {pascal.get_lastnumber(i)}")
+print ("Sorted array is:")
+for i in range(len(int_list)):
+    print ("%d" %int_list[i])

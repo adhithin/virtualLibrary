@@ -1,5 +1,6 @@
-from flask import Blueprint, render_template, request
+from flask import Blueprint, render_template, request, render_template_string
 from findabook.algorithm import Pascal
+from findabook.bubblesort import BubbleSort
 
 bookfinder_bp = Blueprint('findabook', __name__,
                          template_folder='templates',
@@ -16,8 +17,19 @@ def pascalalgo():
         return render_template("algorithm.html", pascal=Pascal(int(request.form.get("series"))))
     return render_template("algorithm.html", pascal=Pascal(2))
 
-@bookfinder_bp.route('/bubblesort', methods=["GET", "POST"])
-def bubblesort():
-    if request.form:
-        return render_template("algorithm.html", pascal=Pascal(int(request.form.get("series"))))
-    return render_template("algorithm.html", pascal=Pascal(2))
+@bookfinder_bp.route('/bubblesort', methods=['GET', 'POST'])
+def sortform():
+    if request.method == 'GET':
+        return render_template("bubblesort.html")
+    elif request.method == 'POST':
+        userlist = request.form.get('inputintegers').split()
+        newlist=[]
+        for element in userlist:
+            newlist.append(int(element))
+        userlist = newlist
+        BubbleSort(userlist)
+        newlist = []
+        for element in userlist:
+            newlist.append(str(element))
+        userlist = newlist
+        return render_template_string('List Sorted from smallest value to largest value: ' + " ".join(userlist))

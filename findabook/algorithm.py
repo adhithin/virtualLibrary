@@ -14,8 +14,8 @@ class Pascal:
 
 
     def calc_series(self):
-        limit = self._series
         f = [1, 11]  # pascal starting array/list
+        limit = self._series
         while limit > 0:
             self.set_data(f[0])
             f = [f[1], (f[1])*11]
