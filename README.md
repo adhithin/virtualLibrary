@@ -14,7 +14,7 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
     * [Minilab in Individual Blueprint](https://github.com/adhithin/virtualLibrary/tree/main/booksmart)
 ##### 2. Build sort using different data types (Characters, Integer, String)
   * Aditi
-    * [Specific data type](https://github.com/adhithin/virtualLibrary/blob/25b0e269fcd363cd2c24f0fc158186db484504b0/findabook/app.py#L28)
+    * [Specific data type](https://github.com/adhithin/virtualLibrary/blob/a2bad083587955a1caaf59e88bf2d25be3dfc40a/findabook/app.py#L28-L33)
 ##### 3. Build input screen for different types of data and have action button to sort each type.
   * Aditi
     * [Input in the html form](https://github.com/adhithin/virtualLibrary/blob/25b0e269fcd363cd2c24f0fc158186db484504b0/findabook/templates/bubblesort.html#L9)
