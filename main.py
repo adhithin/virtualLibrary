@@ -22,7 +22,7 @@ app.register_blueprint(bookfinder_bp, url_prefix='/findabook')
 # app.register_blueprint(booksearch_bp, url_prefix='/booksearch')
 app.register_blueprint(booksmart_bp, url_prefix='/booksmart')
 app.register_blueprint(randompoem_bp, url_prefix='/randompoem')
-app.register_blueprint(squared_bp, url_prefix='/lukebp_bp')
+app.register_blueprint(squared_bp, url_prefix='/lukebp')
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
