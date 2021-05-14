@@ -2,9 +2,32 @@
 
 Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
-### MiniLab: Classes in Python
+### MiniLab: Bubble Sort
 
-  * [Adhiti's Padlet](https://padlet.com/adhithinmurthy07/pfx41o1wa1g379kl)
+##### 1. Build individual section into your Scrum Team project for execution.
+  * Aditi
+    * [Blueprint Integration in main.py](https://github.com/adhithin/virtualLibrary/blob/bcf48349bf3b05f2a85cd7d77828092cfc67c2bb/main.py#L9-L16)
+    * [Blueprinted directory](https://github.com/adhithin/virtualLibrary/tree/main/findabook)
+  * Ketki
+    * [Minilab in Individual Blueprint](https://github.com/adhithin/virtualLibrary/blob/main/randombook/author.py)
+  * Dayita
+    * [Minilab in Individual Blueprint](https://github.com/adhithin/virtualLibrary/tree/main/booksmart)
+##### 2. Build sort using different data types (Characters, Integer, String)
+  * Aditi
+    * [Specific data type](https://github.com/adhithin/virtualLibrary/blob/a2bad083587955a1caaf59e88bf2d25be3dfc40a/findabook/app.py#L28-L33)
+##### 3. Build input screen for different types of data and have action button to sort each type.
+  * Aditi
+    * [Input in the html form](https://github.com/adhithin/virtualLibrary/blob/25b0e269fcd363cd2c24f0fc158186db484504b0/findabook/templates/bubblesort.html#L9)
+##### 4. Display sorted results on screen
+  * Aditi
+    * [Sorted results are shown as a string](https://github.com/adhithin/virtualLibrary/blob/25b0e269fcd363cd2c24f0fc158186db484504b0/findabook/app.py#L35)
+##### 5. Think about using what you learned in your project (evaluate efficiency).  Look up Insertion and Selection Sort.
+  * Aditi
+    * Insertion sort is when there is a sorted and unsorted list. The algorithm for insertion sort takes each value from the unsorted list and places it in the correct position in the sorted list. 
+    * Selection sort finds the smallest values in the list. If they are smaller than the first value in the sorted list, it makes the smaller number index 0 and puches all the other numbers back by 1 index. This process is repeated multiple times until the list is sorted. 
+    * Bubble sort is definitely the most efficient sorting method out of all the methods. Selection and Insertion sort take many steps to complete nd the algorithm has to go through the list several times. For a list of small numbers, bubble sort takes the least number of steps compared to the other two sorting methods, and that is why is it more efficient. 
+
+### Minilab: Classes and Objects
 ##### 1. Use an individual section (blueprint) in your Scrum Team project for Mini Lab definition and execution.
   * Aditi
     * [Blueprint Integration in main.py](https://github.com/adhithin/virtualLibrary/blob/bcf48349bf3b05f2a85cd7d77828092cfc67c2bb/main.py#L9-L16)

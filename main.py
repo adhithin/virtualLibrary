@@ -3,12 +3,12 @@ from flask import Flask, render_template, flash, redirect, url_for, session, log
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import smtplib
 import time
 from emails.app import emails_bp
 from findabook.app import bookfinder_bp
-# from booksearch.app import booksearch_bp
+from booksearch.app import booksearch_bp
 from booksmart.app import booksmart_bp
 from lukebp.bp import squared_bp
 from randompoem.app import randompoem_bp
@@ -19,10 +19,10 @@ from randompoem.app import randompoem_bp
 app = Flask(__name__)
 app.register_blueprint(emails_bp, url_prefix='/emails')
 app.register_blueprint(bookfinder_bp, url_prefix='/findabook')
-# app.register_blueprint(booksearch_bp, url_prefix='/booksearch')
+app.register_blueprint(booksearch_bp, url_prefix='/booksearch')
 app.register_blueprint(booksmart_bp, url_prefix='/booksmart')
 app.register_blueprint(randompoem_bp, url_prefix='/randompoem')
-app.register_blueprint(squared_bp, url_prefix='/lukebp_bp')
+app.register_blueprint(squared_bp, url_prefix='/lukebp')
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 
@@ -71,4 +71,4 @@ def home():
 
 if __name__ == "__main__":
     #runs the application on the repl development server
-    app.run(debug=True, port='8024', host='127.0.0.1')
+    app.run(debug=True)

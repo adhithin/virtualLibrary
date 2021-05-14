@@ -1,5 +1,5 @@
 class Squared:
-    """Initializer of class takes series parameter and returns Class Objectg"""
+    """Initializer of class takes series parameter and returns Class Objects"""
     def __init__(self, series):
         if series < 0 or series > 100:
             raise ValueError("Series must be between 0 and 100")
@@ -58,4 +58,4 @@ if __name__ == "__main__":
 
     '''Using method to get data from object'''
     for i in range(n):
-        print(f"Squared sequence {i} = {squared.get_sequence(i+1)}")
+        print(f"Squared =sequence {i} = {squared.get_sequence(i+1)}")

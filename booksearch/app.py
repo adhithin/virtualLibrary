@@ -3,7 +3,7 @@ from flask import Flask, Blueprint, render_template, flash, redirect, url_for, s
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import smtplib
 import time
 from booksearch.selection import Books
@@ -34,8 +34,8 @@ def search():
         if 'SciFi' in genres:
             return render_template("index.html")
     if request.method == 'POST':
-        return render_template("select-poem.html", bookrecs=Books(int(request.form.get("series"))))
-    return render_template("select-poem.html", bookrecs=Books(1))
+        return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))))
+    return render_template("select-book.html", bookrecs=Books(1))
 
 @booksearch_bp.route('/allgenres', methods=['GET', 'POST'])
 def allgenres():

@@ -3,7 +3,7 @@ from flask import Flask, Blueprint, render_template, flash, redirect, url_for, s
 from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc
-#from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup
 import smtplib
 import time
 
@@ -23,11 +23,11 @@ def index():
             server.starttls()
             server.ehlo()
 
-            server.login('adhithi.nmurthy07@gmail.com', 'yavesbrwlogwvuaa')
+            server.login('apstudent138@gmail.com', 'cin766fAw')
 
             subject = 'Hello from virtualLibrary'
 
-            body = 'Check out the website to learn about Bananas: https://en.wikipedia.org/wiki/Banana'
+            body = 'here are some book recomendations for you; check it out by using the secret password to open the page: apstudents'
 
             msg = f"Subject: {subject}\n\n{body}"
 
