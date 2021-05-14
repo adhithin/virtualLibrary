@@ -32,4 +32,4 @@ def sortform():
         for element in userlist:
             newlist.append(str(element))
         userlist = newlist
-        return render_template_string('List Sorted from smallest value to largest value: ' + " ".join(userlist))
+        return render_template_string('Experimental Data Sorted from Least to Greatest Value: ' + " ".join(userlist))
