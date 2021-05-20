@@ -8,7 +8,7 @@ import smtplib
 import time
 
 
-emails_bp = Blueprint('emails', __name__,
+emails_bp = Blueprint('join', __name__,
                          template_folder='templates',
                          static_folder='static', static_url_path='assets')
 
@@ -65,7 +65,7 @@ class Ebook(db.Model):
 #must go after 'models'
 db.create_all();
 
-@app.route("/", methods=['GET', 'POST'])
+@app.route("/sell", methods=['GET', 'POST'])
 def ebook():
     ## activating our procedure ebook(). our calls go through here.
     if request.method == 'POST': ## if the form in HTML is entered (the submit button is pressed) then this code segment will run

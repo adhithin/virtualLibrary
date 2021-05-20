@@ -17,7 +17,7 @@ from randompoem.app import randompoem_bp
 
 
 app = Flask(__name__)
-app.register_blueprint(emails_bp, url_prefix='/emails')
+app.register_blueprint(emails_bp, url_prefix='/join')
 app.register_blueprint(bookfinder_bp, url_prefix='/findabook')
 app.register_blueprint(booksearch_bp, url_prefix='/booksearch')
 app.register_blueprint(booksmart_bp, url_prefix='/booksmart')
