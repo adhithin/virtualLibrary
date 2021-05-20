@@ -21,20 +21,22 @@ booksearch_bp = Blueprint('booksearch', __name__,
 def search():
     genres = 'nothing'
     if request.method == 'POST':
+        favgenres = 0
         genres = request.form.getlist('genre')
         print(genres)
         if 'Romance' and 'SciFi' and 'Nonfiction' and 'Comedy' in genres:
             return render_template("allgenres.html")
         if 'Comedy' in genres:
-            return render_template("index.html")
+            return render_template("comedy.html")
         if 'Nonfiction' in genres:
-            return render_template("index.html")
+            return render_template("nonfiction.html")
         if 'Romance' in genres:
-            return render_template("index.html")
+            return render_template("romance.html")
         if 'SciFi' in genres:
-            return render_template("index.html")
+            return render_template("scifi.html")
+        return render_template("select-book.html", bubbles=BubbleSort(genres))
     if request.method == 'POST':
-        return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))))
+        return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))), bubbles=BubbleSort(genres))
     return render_template("select-book.html", bookrecs=Books(1))
 
 @booksearch_bp.route('/allgenres', methods=['GET', 'POST'])
@@ -52,5 +54,7 @@ def quiz():
 
 @booksearch_bp.route('/bubblesort', methods=['GET', 'POST'])
 def alphabetize():
-    sort = request.form.getlist("sort")
+    sort = 'nothing'
+    if request.method == 'POST':
+        sort = request.form.getlist('sort')
     return render_template("bubblesort.html", bubbles=BubbleSort(sort))
