@@ -11,7 +11,28 @@ import time
 emails_bp = Blueprint('join', __name__,
                          template_folder='templates',
                          static_folder='static', static_url_path='assets')
+app = Flask(__name__)
 
+db = SQLAlchemy(app) ## renaming so we can abbreviate to db.
+
+class Ebook(db.Model):
+    __tablename__ = 'Ebook'
+    id = db.Column(db.Integer, primary_key=True)
+    # not planning to delete scores, but still a good practice
+    p_title = db.Column(db.String(10), unique=False, nullable=False)
+    p_price = db.Column(db.Integer, unique=False, nullable=False) # want score as int so we can sort by it easily.
+
+    ## the initializer
+    def __init__(self, p_title, p_price):
+        self.p_title = p_title
+        self.p_price = p_price
+
+
+    def __repr__(self):
+        return f"{self.p_title},{self.p_price}"
+
+#must go after 'models'
+db.create_all();
 
 @emails_bp.route('/', methods=['GET', 'POST'])
 def index():
@@ -46,26 +67,9 @@ def index():
 
     return render_template("index.html")
 
-class Ebook(db.Model):
-    __tablename__ = 'Ebook'
-    id = db.Column(db.Integer, primary_key=True)
-    # not planning to delete scores, but still a good practice
-    p_title = db.Column(db.String(10), unique=False, nullable=False)
-    p_price = db.Column(db.Integer, unique=False, nullable=False) # want score as int so we can sort by it easily.
-
-    ## the initializer
-    def __init__(self, p_title, p_price):
-        self.p_title = p_title
-        self.p_price = p_price
 
 
-    def __repr__(self):
-        return f"{self.p_title},{self.p_price}"
-
-#must go after 'models'
-db.create_all();
-
-@app.route("/sell", methods=['GET', 'POST'])
+@emails_bp.route('/sell', methods=['GET', 'POST'])
 def ebook():
     ## activating our procedure ebook(). our calls go through here.
     if request.method == 'POST': ## if the form in HTML is entered (the submit button is pressed) then this code segment will run

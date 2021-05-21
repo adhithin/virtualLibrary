@@ -31,7 +31,7 @@
 {% for books in ebook_catalog  %}
 <div class="card bg-light">
     <div class="card-body">
-        <b class="text-primary">BUY: </b>
+        <button class="btn  my-2 my-sm-0 text-white bg-danger" type="submit"> BUY </button>
         <b> {{books.title}}, ${{books.price}}</b>  <!-- getters, which get the book listings from python --->
         <p> listed by: unknown seller</p>
 
