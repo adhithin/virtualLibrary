@@ -2,23 +2,15 @@
 def bubbleSort(arr):
     n = len(arr)
     # Traverse through all array elements
+
     for i in range(n):
         swapped = False
-
-        # Last i elements are already
-        #  in place
         for j in range(0, n-i-1):
 
-            # traverse the array from 0 to
-            # n-i-1. Swap if the element
-            # found is greater than the
-            # next element
             if arr[j] > arr[j+1] :
                 arr[j], arr[j+1] = arr[j+1], arr[j]
                 swapped = True
 
-        # IF no two elements were swapped
-        # by inner loop, then break
         if swapped == False:
             break
     print(arr)
@@ -63,12 +55,40 @@ class BubbleSort:
 
 
 
-if __name__ == "__main__":
-    '''Value for testing'''
 
-    '''Constructor of Class object'''
-    x = [2, 1, 64, 23, 7]
-    bubbles = BubbleSort(x)
+
+
+    arr = ["C", "E", "D", "B", "A"]
+    n = len(arr)
+    # Traverse through all array elements
+
+    for i in range(n):
+        swapped = False
+        for j in range(0, n-i-1):
+
+            if arr[j] > arr[j+1] :
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+                swapped = True
+
+        if swapped == False:
+            break
+    print(arr)
+
+    arr = [4, 2, 543, 23, 531, 13, 24]
+    n = len(arr)
+    # Traverse through all array elements
+
+    for i in range(n):
+        swapped = False
+        for j in range(0, n-i-1):
+
+            if arr[j] > arr[j+1] :
+                arr[j], arr[j+1] = arr[j+1], arr[j]
+                swapped = True
+
+        if swapped == False:
+            break
+    print(arr)
 
 
 
