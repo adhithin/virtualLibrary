@@ -1,176 +1,44 @@
+
 <!DOCTYPE html>
 <html>
 <title>Home</title>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-body {
-  font-family: Courier New;
-}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
-.sidenav {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #fff;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #696969;
-}
-
-.main {
-  margin-left: 200px; /* Same as the width of the sidenav */
-  margin-right: 300px;
-  font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
-}
-
-* {
-box-sizing: border-box;
-}
-
-/* Float four columns side by side */
-.column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-}
-
-.row {margin: 0 -5px;}
-
-            /* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-            /* Style the counter cards */
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
-    padding: 16px;
-    text-align: center;
-    background-color: #294e54;
-}
-
-            /* Responsive columns - one column layout (vertical) on small screens */
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 16px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
 </head>
 <body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand text-light" href="#">Del Norte Book Rush</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
 
-<div class="sidenav">
-    <a href="#about" style="font-family:Courier New">About</a>
-    <a href="/booksearch" style="font-family:Courier New">Book Recs</a>
-    <a href="/randombook" style="font-family:Courier New">Author Recs</a>
-    <a href="#contact" style="font-family:Courier New">Contact</a>
-    <a href="/randompoem" style="font-family:Courier New">Random Poem</a>
-    <a href="/randompoem/sort" style="font-family:Courier New">Ketki Bubblesort</a>
-    <a href="/findabook/bubblesort" style="font-family:Courier New">Aditi's Bubblesort MiniLab</a>
-    <a href="/lukebp/bubblesort" style="font-family:Courier New">Luke Mini Lab</a>
-
-
-</div>
-
-<div class="main">
-    <style>
-    body {
-      background-image: url('https://images.unsplash.com/photo-1535905557558-afc4877a26fc?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8ZGFyayUyMGxpYnJhcnl8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 100% 230%;
-      font-family:Courier New;
-      color: #fff;
-    }
-    </style>
-
-    <h1 class="card" style="color:#fff;background-color:#151515;">Welcome to Virtual Librarian</h1>
-    <h3 class="card" style="color:#fff;background-color:#151515;">Weekly Book Recommendation List (Featured Author: John Green)</h3>
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81a4kCNuH+L.jpg" alt="The Fault in Our Stars" style="width:190px;height:300px;">
-                <h5>The Fault in Our Stars</h5>
-                <a href="https://www.goodreads.com/book/show/11870085-the-fault-in-our-stars" style="color:#427e87;">learn more</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81JcLK2T8yL.jpg" alt="Looking for Alaska" style="width:190px;height:300px;">
-                <h5>Looking for Alaska</h5>
-                <a href="https://www.goodreads.com/book/show/99561.Looking_for_Alaska" style="color:#427e87">learn more</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/81WBJQUEFsL.jpg" alt="Paper Towns" style="width:190px;height:300px;">
-                <h5>Paper Towns</h5>
-                <a href="https://www.goodreads.com/book/show/6442769-paper-towns?ac=1&from_search=true&qid=NbaKcEdKMt&rank=1" style="color:#427e87">learn more</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="https://images-na.ssl-images-amazon.com/images/I/A1xkP6YA55L.jpg" alt="Will Grayson Will Grayson" style="width:190px;height:300px;">
-                <h5>Will Grayson Will Grayson</h5>
-                <a href="https://www.goodreads.com/book/show/6567017-will-grayson-will-grayson?ac=1&from_search=true&qid=8WUaw6cvIn&rank=1" style="color:#427e87">learn more</a>
-            </div>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/booksearch">Book Recs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/randombook" >Author Recs</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="/randompoem">Random Poem</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn my-2 my-sm-0 bg-success" type="submit">Search</button>
+        </form>
     </div>
-    <h3 class="card" style="color:#fff;background-color:#151515;">Looking for a new book? Pick your favorite genre</h3>
-    <div class="row">
-        <div class="column">
-            <div class="card">
-                <img src="https://mymodernmet.com/wp/wp-content/uploads/2018/09/encyclopedia-sci-fi.jpg" alt="Science Fiction" style="width:190px;height:300px;">
-                <h5>Science Fiction</h5>
-                <a href="https://www.npr.org/2011/08/11/139085843/your-picks-top-100-science-fiction-fantasy-books" style="color:#427e87">learn more</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="https://i.pinimg.com/736x/de/98/3a/de983aab18df6a10341d375b80a3fe3e.jpg" alt="Biography" style="width:190px;height:300px;">
-                <h5>Biography</h5>
-                <a href="https://reedsy.com/discovery/blog/best-biographies" style="color:#427e87">learn more</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ55wuIWgiTCBiNN6UMr0_b5R5M9ycIEUlzXLYp59mf0B9OAguPXMYt0OmEMl_3nMz8P7A&usqp=CAU" alt="Drama" style="width:190px;height:300px;">
-                <h5>Drama</h5>
-                <a href="https://www.goodreads.com/list/tag/drama" style="color:#427e87">learn more</a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="https://bloximages.chicago2.vip.townnews.com/journalstar.com/content/tncms/assets/v3/editorial/7/ff/7ffd6c7a-5a1f-11df-9f39-001cc4c002e0/7ffd6c7a-5a1f-11df-9f39-001cc4c002e0.preview-300.jpg?crop=300%2C300%2C0%2C52&resize=1200%2C1200&order=crop%2Cresize" alt="Young Adult Fiction" style="width:190px;height:300px;">
-                <h5>Young Adult Fiction</h5>
-                <a href="https://www.goodreads.com/search?q=young+adult+fiction&qid=vhYLV32qlM" style="color:#427e87">learn more</a>
-            </div>
-        </div>
+</nav>
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Featured Books</h5>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="btn btn-success">Go somewhere</a>
     </div>
 </div>
 

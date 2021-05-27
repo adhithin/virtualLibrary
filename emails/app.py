@@ -45,7 +45,7 @@ def index():
             server.starttls()
             server.ehlo()
 
-            server.login('apstudent138@gmail.com', 'cin766fAw')
+            server.login('adhithi.nmurthy07@gmail.com', 'yavesbrwlogwvuaa')
 
             subject = 'Hello from virtualLibrary'
 
@@ -54,7 +54,7 @@ def index():
             msg = f"Subject: {subject}\n\n{body}"
 
             server.sendmail(
-                'apstudent138@gmail.com',
+                'adhithi.nmurthy07@gmail.com',
                 email,
                 msg
 
@@ -72,6 +72,7 @@ def index():
 @emails_bp.route('/sell', methods=['GET', 'POST'])
 def ebook():
     ## activating our procedure ebook(). our calls go through here.
+
     if request.method == 'POST': ## if the form in HTML is entered (the submit button is pressed) then this code segment will run
         title = request.form['name'] ## this is the book title
         price = int(request.form['rating']) ## this is the price of that book
@@ -102,5 +103,6 @@ def ebook():
     for book in books: ## iteration with for loops
         new_book = {'title':book.p_title, 'price':book.p_price}
         ebook_catalog.append(new_book) ## adding the new book into our eBook list.
+
 
     return render_template('ebooks.html', ebook_catalog = ebook_catalog)
