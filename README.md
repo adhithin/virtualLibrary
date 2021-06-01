@@ -1,4 +1,4 @@
-# virtualLibrary P3Rats
+# VirtualLibrary P3Rats
 
 Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
