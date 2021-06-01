@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+{% block title %}
+<title>Title</title>
+{% endblock %}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary">
+    <a class="navbar-brand text-light" href="#">Del Norte Book Rush</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-light" href="/booksearch">Book Recs</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/randombook" >Author Recs</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link text-light" href="/randompoem">Random Poem</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/join/sell" >Sell Books</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link text-light" href="/bookreviews" > Book Reviews</a>
+            </li>
+
+
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn my-2 my-sm-0 bg-success" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
+
+<div class="jumbotron bg-primary">
+    {% block contentone %}
+    <h4>content 1</h4>
+    {% endblock %}
+</div>
+
+<div class="jumbotron bg-success">
+    {% block contenttwo %}
+    <h4>content 2</h4>
+    {% endblock %}
+</div>
+
+<div class="card bg-success" style="width: 18rem;">
+    {% block contentthree %}
+    <h4>content 3</h4>
+    {% endblock %}
+</div>
+
+</body>
+</html>
