@@ -1,4 +1,4 @@
-# virtualLibrary P3Rats
+# VirtualLibrary P3Rats
 
 Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
@@ -59,30 +59,6 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
   * [Aditi](https://github.com/adhithin/virtualLibrary/blob/5ca17adc21b038cb4e19b894eccd5281335134f4/findabook/algorithm.py#L63): In Mr. M's example, the entire fibonacci sequence is shown. However, in my example, I did not want to show the entire list, I just wanted to show the last number. So I used the getter get_lastnumber to do this. 
   * Ketki: reload the page to get a new author rec each time! 
   * Dayita: Gives you a new sequence each time and has factorials!
-
-## Possible Ideas to expand into (and who might be able to them) 
-
-### Sending a newsletter 
-
-this would entail the use of smtp in order to be able to send emails to those who enter their emails in. we could do this by merging it with a form from html. 
-
-@adhithi can do it? 
-
-### Choosing a random book 
-
-we could use a checkbox form in html and python and render different templates based on the genres chosen. 
-
-@adhithi can do it?
-
-### find a library near you 
-
-
-### shop for your book on amazon
-
-
-### random book selection 
-
-
 
 ### Color Schemes
 * #294e54
