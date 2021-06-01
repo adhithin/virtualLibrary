@@ -106,6 +106,10 @@ def home():
 
     return render_template("home.html")
 
+@app.route('/browse')
+def browse():
+    return render_template("browse.html")
+
 @app.route('/bookreviews', methods=['GET', 'POST'])
 def review():
     if request.method == 'POST':
