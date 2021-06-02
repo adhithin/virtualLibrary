@@ -4,7 +4,7 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
 ### Progress (6/1/2021)
 - [X] Creating a page with book recommendations and genre recomendations
-- [X] Creating a UI with a unified theme
+- [] Creating a UI with a unified theme
 
 ### MiniLab: Bubble Sort
 
