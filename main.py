@@ -114,6 +114,10 @@ def browse():
 def base():
     return render_template("base.html")
 
+@app.route('/individual')
+def individual():
+    return render_template("individual.html")
+
 @app.route('/bookreviews', methods=['GET', 'POST'])
 def review():
     if request.method == 'POST':

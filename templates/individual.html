@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% extends "base.html" %}
+
+    {% block title %}
+    <title>Individual</title>
+    {% endblock %}
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body>
+
+{% block contentone %}
+<h1 class="text-light">Individual Sections</h1>
+<p class="lead text-light"> Check out P3Rats' individual sections.</p>
+<hr class="my-4">
+<p class="text-light">Need something? Check out the navbar on the top to go to your destination.</p>
+<p class="lead">
+    <a class="btn btn-light btn-lg text-dark" href="#" role="button">Learn more</a>
+</p>
+{% endblock %}
+
+{% block contenttwo %}
+<h1 id="adhithi" class="text-light">Adhithi</h1>
+<hr class="my-4">
+<p class="lead">
+    <a class="btn btn-light btn-lg text-dark" href="/randompoem" role="button">go to poems!</a>
+</p>
+<p class="lead">
+    <a class="btn btn-light btn-lg text-dark" href="/randompoem" role="button">go to poems!</a>
+</p>
+<p class="lead">
+    <a class="btn btn-light btn-lg text-dark" href="/randompoem" role="button">go to poems!</a>
+</p>
+{% endblock %}
+
+{% block contentthree %}
+<div class="card-body">
+    <h5 class="card-title text-light">Featured Books</h5>
+    <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-success">Go somewhere</a>
+</div>
+{% endblock %}
+
+
+</body>
+</html>
