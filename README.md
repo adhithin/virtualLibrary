@@ -3,8 +3,37 @@
 Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
 ### Progress (6/1/2021)
-- [X] Creating a page with book recommendations and genre recomendations
-- [ ] Creating a UI with a unified theme
+##### User Interactions
+- [ ] Database for sending book recommendations via email
+- [X] Random Poem generator (API)
+- [ ] Database for selling books
+- [X] Random Book/Author recommendations
+
+Key Technicals:
+- SQL Databases
+    - [X] Database for selling books 
+    - [ ] Database to capture emails 
+- API 
+    - [X] Pulling data from an api data source
+    - [X] Created app route, defined data source in base
+    - [X] Each refresh displays a random poem, info about poet, etc.
+    - 
+- Deployment 
+    - [X] Deployed on Raspberry Pi web server
+    - [X] Domain name: virtuallibrary.cf 
+
+- Simple Mail Transfer Protocol 
+    - [ ] Used to send emails to users interested about book recommendations 
+    - [ ] Used to send receipts to people who purchase books 
+- Classes 
+    - [X] Used to create random recommendations of authors and books to users
+- HTML
+    - [ ] Used to design the UI and unify the project with a common theme
+         - still need to create base jinja template and integrate it into the system
+         - this is Aditi's next ticket
+
+
+
 
 ### MiniLab: Bubble Sort
 
