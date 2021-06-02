@@ -31,6 +31,9 @@ Key Technicals:
     - [ ] Used to design the UI and unify the project with a common theme
          - still need to create base jinja template and integrate it into the system
          - this is Aditi's next ticket
+    - [X] Homepage with book reccomendations, featured author, and recommended genres
+         - The homepage HTML code is in [browse.html](https://github.com/adhithin/virtualLibrary/blob/main/templates/browse.html)
+         - The [runtime link](virtuallibrary.cf/browse) to the homepage
 
 
 
