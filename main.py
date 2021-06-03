@@ -96,7 +96,6 @@ def home():
                 'adhithi.nmurthy07@gmail.com',
                 email,
                 msg
-
             )
 
             server.quit()
@@ -118,8 +117,35 @@ def base():
 def individual():
     return render_template("individual.html")
 
-@app.route('/purchase')
+@app.route('/purchase',  methods=['GET', 'POST'])
 def purchase():
+    email = 'nothing'
+    if request.method == 'POST':
+        email = request.form['email']
+        def send_email():
+            server = smtplib.SMTP('smtp.gmail.com', 587)
+            server.ehlo()
+            server.starttls()
+            server.ehlo()
+
+            server.login('adhithi.nmurthy07@gmail.com', 'zkcdvwqjibngudpo')
+
+            subject = 'Your Book Reciept'
+
+            body = 'Here is your book reciept for your book.'
+
+            msg = f"Subject: {subject}\n\n{body}"
+
+            server.sendmail(
+                'adhithi.nmurthy07@gmail.com',
+                email,
+                msg
+            )
+
+            server.quit()
+
+        send_email()
+        print("email: " + email)
     return render_template("purchase.html")
 
 @app.route('/bookreviews', methods=['GET', 'POST'])
