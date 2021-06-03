@@ -118,6 +118,10 @@ def base():
 def individual():
     return render_template("individual.html")
 
+@app.route('/purchase')
+def purchase():
+    return render_template("purchase.html")
+
 @app.route('/bookreviews', methods=['GET', 'POST'])
 def review():
     if request.method == 'POST':
