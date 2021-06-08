@@ -13,7 +13,7 @@
 
 
 
-<div class="jumbotron text-center row">
+<div class="jumbotron text-white bg-success mb-3 text-center row">
     <div>
         <h3>Here is your random poem! </h3>
     </div>
@@ -24,8 +24,8 @@
 
 
         <div>
-            Title: {{ poemdata[0].title }}
-            Poem: {{ poemdata[0].content }}
+
+             {{ poemdata[0].content }}
 
         </div>
 
@@ -42,7 +42,7 @@
     </div>
 </div>
 
-<div class="card bg-success mb-3" style="max-width: 18rem;">
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
     <div class="card-header">Link to the Poet's Website</div>
     <div class="card-body">
         <h5 class="card-title">Website:  <a href="{{poemdata[0].poet.url}}">{{poemdata[0].poet.name}} </a></h5>
