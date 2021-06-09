@@ -2,17 +2,17 @@
 
 Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
-### Progress (6/1/2021)
+### Progress (6/8/2021)
 ##### User Interactions
-- [ ] Database for sending book recommendations via email
+- [x] Database for sending book recommendations via email
 - [X] Random Poem generator (API)
-- [ ] Database for selling books
+- [x] Database for selling books
 - [X] Random Book/Author recommendations
 
 Key Technicals:
 - SQL Databases
     - [X] Database for selling books 
-    - [ ] Database to capture emails 
+    - [x] Database to capture emails 
 - API 
     - [X] Pulling data from an api data source
     - [X] Created app route, defined data source in base
@@ -23,8 +23,8 @@ Key Technicals:
     - [X] Domain name: virtuallibrary.cf 
 
 - Simple Mail Transfer Protocol 
-    - [ ] Used to send emails to users interested about book recommendations 
-    - [ ] Used to send receipts to people who purchase books 
+    - [x] Used to send emails to users interested about book recommendations 
+    - [x] Used to send receipts to people who purchase books 
 - Classes 
     - [X] Used to create random recommendations of authors and books to users
 - HTML
