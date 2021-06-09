@@ -4,7 +4,7 @@ from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc
 from bs4 import BeautifulSoup
-import smtplib
+import smtplib, ssl
 import time
 from emails.app import emails_bp
 from findabook.app import bookfinder_bp
@@ -128,11 +128,11 @@ def purchase():
             server.starttls()
             server.ehlo()
 
-            server.login('adhithi.nmurthy07@gmail.com', 'zkcdvwqjibngudpo')
+            server.login('adhithi.nmurthy07', 'qtpedvrcbuurzowj')
 
-            subject = 'Your Book Reciept'
+            subject = 'Hello from virtualLibrary - Your Reciept'
 
-            body = 'Here is your book reciept for your book.'
+            body = 'Thank you for purchasing a book at virtualLibrary. Your total cost comes down to less than 30 dollars. We hope you enjoy your book. Have a nice day.'
 
             msg = f"Subject: {subject}\n\n{body}"
 
