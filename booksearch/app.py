@@ -34,7 +34,7 @@ def search():
             return render_template("romance.html")
         if 'SciFi' in genres:
             return render_template("scifi.html")
-        return render_template("select-book.html", bubbles=BubbleSort(genres))
+        return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))), bubbles=BubbleSort(genres))
     if request.method == 'POST':
         return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))), bubbles=BubbleSort(genres))
     return render_template("select-book.html", bookrecs=Books(1))
