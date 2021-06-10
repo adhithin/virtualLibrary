@@ -17,7 +17,7 @@ def squared():
 @squared_bp.route('/bubblesort', methods=['GET', 'POST'])
 def sortform(dtype=None):
     if request.method == 'GET':
-        return render_template("bubblesort.html")
+        return render_template("bblsort.html")
     elif request.method == 'POST':
         data = request.form.get('inputintegers').split()
         if dtype == "int":

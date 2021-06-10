@@ -13,15 +13,14 @@ def bubbleSort(arr):
 
         if swapped == False:
             break
-    print(arr)
+        print(arr)
 
 
 class BubbleSort:
     """Initializer of class takes series parameter and returns Class Objects"""
     def __init__(self, arr):
         """Built in validation and exception"""
-        self._arr = arr
-        self._list = []
+        self._list = arr
         self._dict = {}
         self._dictID = 0
         # Duration timeElapsed;
@@ -34,7 +33,7 @@ class BubbleSort:
 
     """Algorithm for building book series list, this id called from __init__"""
     def bubble_sort(self):
-        f = bubbleSort(self._arr)
+        f = bubbleSort(self._list)
 
         """Getters with decorator to allow . notation access"""
     @property
@@ -43,7 +42,7 @@ class BubbleSort:
 
     @property
     def list(self):
-        return self._arr
+        return self._list
 
     @property
     def number(self):
@@ -88,7 +87,7 @@ class BubbleSort:
 
         if swapped == False:
             break
-    print(arr)
+        print(arr)
 
 
 
