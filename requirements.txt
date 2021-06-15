@@ -4,3 +4,4 @@ SQLAlchemy
 Werkzeug
 bs4
 numpy
+flask_sqlalchemy

@@ -34,7 +34,7 @@ def search():
             return render_template("romance.html")
         if 'SciFi' in genres:
             return render_template("scifi.html")
-        return render_template("select-book.html", bubbles=BubbleSort(genres))
+        return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))), bubbles=BubbleSort(genres))
     if request.method == 'POST':
         return render_template("select-book.html", bookrecs=Books(int(request.form.get("series"))), bubbles=BubbleSort(genres))
     return render_template("select-book.html", bookrecs=Books(1))
@@ -43,18 +43,11 @@ def search():
 def allgenres():
     return render_template("allgenres.html")
 
-@booksearch_bp.route('/bookquiz', methods=['GET', 'POST'])
-def quiz():
-    X = np.array([[0,0,1],#these are our inputs. first number: if they eat bananas. second: strawberries; third: blueberries
-                  [0,1,0],
-                  [1,0,0],
-                  [1,1,1]])
-    y = np.array([[0],[0],[0],[0]])
-    return render_template("bookquiz.html", bookquiz=NeuralNetwork(X, y))
-
 @booksearch_bp.route('/bubblesort', methods=['GET', 'POST'])
 def alphabetize():
     sort = 'nothing'
     if request.method == 'POST':
         sort = request.form.getlist('sort')
-    return render_template("bubblesort.html", bubbles=BubbleSort(sort))
+        print(sort)
+        return render_template("bblsort.html", bubbles=BubbleSort(sort))
+    return render_template("bblsort.html", bubbles=BubbleSort(["book","select"]))

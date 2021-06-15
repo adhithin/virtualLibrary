@@ -9,7 +9,6 @@ import smtplib
 import time
 from randompoem.author import Authors
 from randompoem.templates.kbubblesort import bubbleSort
-
 randompoem_bp = Blueprint('randompoem', __name__,
                           template_folder='templates',
                           static_folder='static', static_url_path='assets')

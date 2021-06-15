@@ -4,7 +4,7 @@ from flask import request
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import desc
 from bs4 import BeautifulSoup
-import smtplib
+import smtplib, ssl
 import time
 from emails.app import emails_bp
 from findabook.app import bookfinder_bp
@@ -96,7 +96,6 @@ def home():
                 'adhithi.nmurthy07@gmail.com',
                 email,
                 msg
-
             )
 
             server.quit()
@@ -113,6 +112,41 @@ def browse():
 @app.route('/base')
 def base():
     return render_template("base.html")
+
+@app.route('/individual')
+def individual():
+    return render_template("individual.html")
+
+@app.route('/purchase',  methods=['GET', 'POST'])
+def purchase():
+    email = 'nothing'
+    if request.method == 'POST':
+        email = request.form['email']
+        def send_email():
+            server = smtplib.SMTP('smtp.gmail.com', 587)
+            server.ehlo()
+            server.starttls()
+            server.ehlo()
+
+            server.login('adhithi.nmurthy07', 'qtpedvrcbuurzowj')
+
+            subject = 'Hello from virtualLibrary - Your Reciept'
+
+            body = 'Thank you for purchasing a book at virtualLibrary. Your total cost comes down to less than 30 dollars. We hope you enjoy your book. Have a nice day.'
+
+            msg = f"Subject: {subject}\n\n{body}"
+
+            server.sendmail(
+                'adhithi.nmurthy07@gmail.com',
+                email,
+                msg
+            )
+
+            server.quit()
+
+        send_email()
+        print("email: " + email)
+    return render_template("purchase.html")
 
 @app.route('/bookreviews', methods=['GET', 'POST'])
 def review():
