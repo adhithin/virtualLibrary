@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Order you experimental data from smallest to largest number!</title> <!--- purpose of the program is to sort the data from classroom science experiments -->
-</head>
-<body>
+
+{% extends "base.html" %}
+
+{% block title %}
+<title>Order you experimental data from smallest to largest number!</title>
+{% endblock %}
+
+{% block contentone %}
+
+{% endblock %}
+
+{% block contenttwo %}
 <form method="post" action="/findabook/bubblesort">
     <textarea id="inputintegers" name="inputintegers" rows="5"></textarea>
     <button type="submit" name="Submit" value="Submit">Submit</button> <!--- Input instructions: the user must input a list of numbers and click submit button in order to run program -->
 </form>
-</body>
+{% endblock %}
+
+
+{% block contentthree %}
+
+{% endblock %}
+
 </html>
