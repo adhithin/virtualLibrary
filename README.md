@@ -2,7 +2,7 @@
 
 Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 
-### Progress (6/8/2021)
+### How its made:
 ##### User Interactions
 - [x] Database for sending book recommendations via email
 - [X] Random Poem generator (API)
