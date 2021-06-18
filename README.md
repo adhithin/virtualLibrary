@@ -12,7 +12,14 @@ Here is our [project plan](https://padlet.com/ketkic61666/Rats)
 Key Technicals:
 - SQL Databases
     - [X] Database for selling books 
+        - Front end to display books in database and help buy the books: [ebook.html](https://github.com/adhithin/virtualLibrary/blob/main/emails/templates/ebooks.html)
+        - Back end is here through a blueprint: [app.py](https://github.com/adhithin/virtualLibrary/blob/main/emails/app.py)
     - [x] Database to capture emails 
+        - Front end to request emails is here [purchase.html](https://github.com/adhithin/virtualLibrary/blob/main/templates/purchase.html)
+        - Back end is here [main.py](https://github.com/adhithin/virtualLibrary/blob/main/main.py)
+    - [x] Database for book reviews
+        - Front end for user is here [bookreview.html](https://github.com/adhithin/virtualLibrary/blob/main/templates/bookreview.html)
+        - Back end is here [main.py](https://github.com/adhithin/virtualLibrary/blob/main/main.py)
 - API 
     - [X] Pulling data from an api data source
     - [X] Created app route, defined data source in base
@@ -20,7 +27,7 @@ Key Technicals:
 
 - Simple Mail Transfer Protocol 
     - [x] Used to send emails to users interested about book recommendations 
-    - [x] Used to send receipts to people who purchase books 
+         - The code (backend) is here, after importing SMTP, on [main.py](https://github.com/adhithin/virtualLibrary/blob/main/main.py)
 
 - Classes 
     - [X] Used to create random recommendations of authors and books to users
