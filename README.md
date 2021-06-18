@@ -34,13 +34,19 @@ Key Technicals:
     - [X] Used to simulate factorial expansion
          - Backend python page is [rat.py](https://github.com/adhithin/virtualLibrary/blob/main/booksmart/rat.py). 
          - Frontend html page with user-interactive form is [series.html](https://github.com/adhithin/virtualLibrary/blob/main/booksmart/templates/series.html).   
-- HTML
+- Theme
     - [X] Used to design the UI and unify the project with a common theme
          - [base.html](https://github.com/adhithin/virtualLibrary/blob/main/templates/base.html) is the jinja template that is being used to integrateall of the pages of the website so that they look the same
          - For example, [home.html](https://github.com/adhithin/virtualLibrary/blob/21857f01f6091627cbeee9748840187f3582c106/templates/home.html#L3) has extended base.html
     - [X] Page with book reccomendations, featured author, and recommended genres
          - The HTML code for this page is in [browse.html](https://github.com/adhithin/virtualLibrary/blob/main/templates/browse.html)
          - The [runtime link](virtuallibrary.cf/browse) to the recommendation page
+
+- Deployment
+    - [X] How it was done
+         - [GitHub Link](https://github.com/nighthawkcoders/flask-idea-homesite) is how it was deployed
+    - [X] Original Domain Name
+         - [Domain Google Doc](https://docs.google.com/document/d/1nODveWp0jBzj4ZpFLgWCWTOXzLAHAPUhAQYmZJ4LhyU/edit?usp=sharing)
 
 
 
