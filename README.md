@@ -17,14 +17,11 @@ Key Technicals:
     - [X] Pulling data from an api data source
     - [X] Created app route, defined data source in base
     - [X] Each refresh displays a random poem, info about poet, etc.
-    - 
-- Deployment 
-    - [X] Deployed on Raspberry Pi web server
-    - [X] Domain name: virtuallibrary.cf 
 
 - Simple Mail Transfer Protocol 
     - [x] Used to send emails to users interested about book recommendations 
     - [x] Used to send receipts to people who purchase books 
+
 - Classes 
     - [X] Used to create random recommendations of authors and books to users
          - Python pages for book recomendations and author recomendations are [selection.py](https://github.com/adhithin/virtualLibrary/blob/main/booksearch/selection.py) and [author.py](https://github.com/adhithin/virtualLibrary/blob/main/randompoem/author.py), respectively. 
@@ -44,9 +41,9 @@ Key Technicals:
 
 - Deployment
     - [X] How it was done
-         - [GitHub Link](https://github.com/nighthawkcoders/flask-idea-homesite) is how it was deployed
+         - The instructions on this [README.md file](https://github.com/nighthawkcoders/flask-idea-homesite) were used to deploy the website
     - [X] Original Domain Name
-         - [Domain Google Doc](https://docs.google.com/document/d/1nODveWp0jBzj4ZpFLgWCWTOXzLAHAPUhAQYmZJ4LhyU/edit?usp=sharing)
+         - This [Google Doc](https://docs.google.com/document/d/1nODveWp0jBzj4ZpFLgWCWTOXzLAHAPUhAQYmZJ4LhyU/edit?usp=sharing) was used to create the domain name. 
 
 
 
