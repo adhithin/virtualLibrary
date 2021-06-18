@@ -24,6 +24,7 @@ Key Technicals:
     - [X] Pulling data from an api data source
     - [X] Created app route, defined data source [app.py] (https://github.com/adhithin/virtualLibrary/blob/cd3e7860a0d47bd6b3f0c6ccbef7ebaed7beb4d5/randompoem/app.py#L42)
     - [X] Each refresh displays a random poem, info about poet, etc.
+(https://vlibrary.nighthawkcodingsociety.com/randompoem/)
 
 - Simple Mail Transfer Protocol 
     - [x] Used to send emails to users interested about book recommendations 
