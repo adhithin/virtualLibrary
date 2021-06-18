@@ -22,10 +22,10 @@ Key Technicals:
         - Back end is here [main.py](https://github.com/adhithin/virtualLibrary/blob/main/main.py)
 - API 
     - [X] Pulling data from an api data source
-    - [X] Created app route, defined data source [app.py] (https://github.com/adhithin/virtualLibrary/blob/cd3e7860a0d47bd6b3f0c6ccbef7ebaed7beb4d5/randompoem/app.py#L42)
-    - [X] Each refresh displays a random poem, info about poet, etc.
-(https://vlibrary.nighthawkcodingsociety.com/randompoem/)
-    - [X] work on front end (https://github.com/adhithin/virtualLibrary/blob/main/randompoem/templates/poem.html)
+        - [Here](https://github.com/adhithin/virtualLibrary/blob/0c18100120d4e8de9d0cd861cebd50e0219570f8/randompoem/app.py#L43) is the data source in the code
+    - [X] Created app route, defined data source in [app.py](https://github.com/adhithin/virtualLibrary/blob/cd3e7860a0d47bd6b3f0c6ccbef7ebaed7beb4d5/randompoem/app.py#L42).
+    - [X] Each refresh displays a random poem and information about poet on [this webpage](https://vlibrary.nighthawkcodingsociety.com/randompoem/). 
+    - [X] [Here](https://github.com/adhithin/virtualLibrary/blob/main/randompoem/templates/poem.html) is the code of the fromt end that integrates the theme of the page with the rest of the project.
 
 - Simple Mail Transfer Protocol 
     - [x] Used to send emails to users interested about book recommendations 
