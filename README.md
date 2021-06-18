@@ -22,7 +22,7 @@ Key Technicals:
         - Back end is here [main.py](https://github.com/adhithin/virtualLibrary/blob/main/main.py)
 - API 
     - [X] Pulling data from an api data source
-    - [X] Created app route, defined data source in base
+    - [X] Created app route, defined data source [app.py] (https://github.com/adhithin/virtualLibrary/blob/cd3e7860a0d47bd6b3f0c6ccbef7ebaed7beb4d5/randompoem/app.py#L42)
     - [X] Each refresh displays a random poem, info about poet, etc.
 
 - Simple Mail Transfer Protocol 
